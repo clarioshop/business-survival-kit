@@ -1,0 +1,1453 @@
+[
+  {
+    "id": 1,
+    "title": "1. The Need for Business Finance",
+    "content": [
+      {
+        "type": "heading",
+        "level": 2,
+        "text": "What is Business Finance?"
+      },
+      {
+        "type": "text",
+        "text": "Textbook Definition: Business finance refers to the money required to establish, operate, and expand a business. The need for finance arises from the gap between when a business must pay for resources and when it receives money from customers."
+      },
+      {
+        "type": "text",
+        "text": "Easy Way: Starting a lemonade stand costs $20 for lemons, sugar, cups, a table, and a sign. You haven't sold any lemonade yet. Where does that $20 come from? That is business finance. You need money before you can make money."
+      },
+      {
+        "type": "text",
+        "text": "Think of it this way: Finance is the fuel in a car. The car won't move without fuel. You need fuel to start the engine (startup), to keep driving (operate), and to go faster (grow)."
+      },
+      {
+        "type": "heading",
+        "level": 3,
+        "text": "Why Businesses Need Finance"
+      },
+      {
+        "type": "table",
+        "headers": ["Reason", "What It Means", "Real-Life Example"],
+        "rows": [
+          ["To start up", "Money needed before the first sale", "A new coffee shop needs $50,000 for equipment before opening day"],
+          ["To grow", "Money to expand operations", "McDonald's spent $300 million to open 1,500 new locations in 2023"],
+          ["To survive", "Money to fix problems and keep going", "Tesla needed $1.5 billion in 2018 to avoid bankruptcy"]
+        ]
+      },
+      {
+        "type": "text",
+        "text": "Tesla's Survival Story: In 2018, Tesla was days away from running out of cash. Elon Musk admitted the company was 'literally within weeks of dying.' They needed $1.5 billion just to survive and keep producing the Model 3. This is finance needed for survival - not growth, not startup, but to avoid death. Tesla got the money and today is worth over $500 billion."
+      },
+      {
+        "type": "heading",
+        "level": 3,
+        "text": "Cash vs. Profit - The Most Confusing Concept"
+      },
+      {
+        "type": "text",
+        "text": "Textbook Definition: Cash is the actual money a business has in its bank account at a specific moment. Profit is the surplus after subtracting all costs from total revenue over a period of time."
+      },
+      {
+        "type": "text",
+        "text": "Easy Way: You sell a $100 toy to a customer who says 'I'll pay you in 60 days.' The toy cost you $60 to make. On paper, you made $40 profit. In reality, you have $0 cash right now. You are actually worse off because you spent $60 and haven't been paid yet."
+      },
+      {
+        "type": "text",
+        "text": "A business can be PROFITABLE but BANKRUPT. This happens when profit is tied up in: (1) unpaid customer bills, (2) unsold inventory sitting in a warehouse, or (3) equipment that cannot be sold quickly."
+      },
+      {
+        "type": "text",
+        "text": "Real Story - WeWork (2021): WeWork reported a 'profit' on paper but didn't have enough cash to pay office rents. Landlords were owed $100 million. The company almost collapsed despite showing 'profit' because profit and cash are completely different things."
+      },
+      {
+        "type": "heading",
+        "level": 3,
+        "text": "Administration, Bankruptcy, and Liquidation"
+      },
+      {
+        "type": "text",
+        "text": "Textbook Definitions: Administration is a legal process where an external manager tries to rescue a struggling business. Bankruptcy is a legal declaration that a person or business cannot repay their debts. Liquidation is selling all business assets to pay debts, then closing permanently."
+      },
+      {
+        "type": "table",
+        "headers": ["Term", "What Happens", "Real Example"],
+        "rows": [
+          ["Administration", "An outsider tries to save the business by restructuring debts", "Wilko (2023) - tried to save 12,000 jobs but failed"],
+          ["Bankruptcy", "Court protects the business while it restructures debts", "Toys 'R' Us (2017) - restructured $5 billion in debt but later liquidated"],
+          ["Liquidation", "Everything is sold. The business closes forever.", "Blockbuster (2013) - all stores closed, 60,000 jobs lost"]
+        ]
+      },
+      {
+        "type": "text",
+        "text": "Lemonade Stand Version: You borrowed $500 for a lemonade stand but only sold $100. Administration: Mom steps in to renegotiate with suppliers and create a payment plan. Bankruptcy: You go to the judge and say 'I cannot pay back the $500.' The court protects you. Liquidation: You sell your table, pitcher, and sign for $15. Your business is gone forever."
+      },
+      {
+        "type": "heading",
+        "level": 3,
+        "text": "Working Capital - The Heartbeat of Business"
+      },
+      {
+        "type": "text",
+        "text": "Textbook Definition: Working capital = Current Assets - Current Liabilities. It is the money available for day-to-day operations."
+      },
+      {
+        "type": "text",
+        "text": "Easy Way: Working capital is the blood in your body. Too little blood and you faint (business fails). Too much blood and it pools uselessly (money sitting doing nothing). You need the right amount flowing continuously."
+      },
+      {
+        "type": "text",
+        "text": "The Bakery Story: A bakery needs $1,000 for flour, sugar, and eggs every morning. They sell bread all day and collect $1,500 by evening. They have $500 left to buy ingredients for tomorrow. Now imagine they spend all their savings on a new $50,000 oven. No money for flour tomorrow. No flour = no bread. No bread = no sales. No sales = closed bakery. This happened to 3,000 UK bakeries in 2022 when energy bills ate up their working capital."
+      },
+      {
+        "type": "text",
+        "text": "Real Disaster - J.C. Penney (2020): The store had Current Assets of $1.2 billion and Current Liabilities of $1.5 billion. Working capital was NEGATIVE $300 million. They couldn't pay suppliers for new inventory. Empty shelves → no customers → no sales → bankruptcy after 118 years in business."
+      },
+      {
+        "type": "table",
+        "headers": ["Lever", "What It Means", "How to Improve", "Real Example"],
+        "rows": [
+          ["Trade Receivables", "Money customers owe you", "Offer discounts for early payment. Send invoices immediately.", "Tesla demanded $1,000 deposits 18 months before delivery - got $500 million cash"],
+          ["Trade Payables", "Money you owe suppliers", "Negotiate longer credit terms (30 days → 60 days)", "Amazon takes 120 days to pay suppliers but gets paid by customers instantly"]
+        ]
+      },
+      {
+        "type": "heading",
+        "level": 3,
+        "text": "Capital vs. Revenue Expenditure"
+      },
+      {
+        "type": "text",
+        "text": "Textbook Definitions: Capital Expenditure (CapEx) is money spent on assets lasting more than one year. Revenue Expenditure (RevEx) is money spent on day-to-day running costs consumed within one year."
+      },
+      {
+        "type": "table",
+        "headers": ["Type", "Definition", "Example", "Like..."],
+        "rows": [
+          ["Capital Expenditure", "Assets lasting 1+ years", "Buying a delivery truck for $50,000", "Buying a backpack for years of school"],
+          ["Revenue Expenditure", "Daily running costs", "Petrol for the truck at $200/week", "Buying lunch - gone by tomorrow"]
+        ]
+      },
+      {
+        "type": "text",
+        "text": "Amazon (2023): Spent $48 billion on capital expenditure (new warehouses, delivery vans, data centers lasting 5-20 years). Spent $82 billion on revenue expenditure (wages, electricity, packaging, fuel consumed within months)."
+      },
+      {
+        "type": "text",
+        "text": "Exam Tip: Capital expenditure appears on the balance sheet as an asset. Revenue expenditure appears on the income statement as an expense. Mixing them up ruins financial statements."
+      }
+    ],
+    "questions": [
+      {
+        "id": 1,
+        "text": "A restaurant made $100,000 profit but cannot pay its $15,000 food supplier bill. The owner took a $20,000 vacation. What went wrong?",
+        "modelAnswer": "The owner confused profit with cash. The $100,000 profit might be tied up in unpaid customer bills, unsold food inventory, or equipment purchases. The supplier needs CASH, not profit on paper. The owner should have checked the actual bank balance before spending $20,000 on vacation. A profitable restaurant can still go bankrupt if cash is mismanaged.",
+        "examTip": "Profit is theory on paper. Cash is reality in the bank. Always separate them."
+      },
+      {
+        "id": 2,
+        "text": "A construction company wins a $5 million contract. The client pays in 18 months. The company needs $2 million for materials and $1 million for wages. They have $500,000 in the bank. Will they survive?",
+        "modelAnswer": "They will NOT survive. They need $3 million over 18 months but only have $500,000. That is a $2.5 million cash gap. Before signing, they should negotiate progress payments (paid monthly during construction), get a mobilization deposit upfront, or arrange a construction loan. Without these, this 'profitable' contract will bankrupt them.",
+        "examTip": "A profitable contract can kill a business if the cash flow timing doesn't work."
+      },
+      {
+        "id": 3,
+        "text": "A store has Current Assets of $50,000 (cash $10,000, inventory $30,000, receivables $10,000) and Current Liabilities of $40,000 (payables $30,000, overdraft $10,000). Calculate working capital. Is this healthy?",
+        "modelAnswer": "Working capital = $50,000 - $40,000 = $10,000 positive. This is moderately healthy, but only $10,000 is actual cash. The biggest risk is the $30,000 inventory - if it doesn't sell, cash is trapped. To improve, offer discounts for early payment of receivables or reduce inventory levels by ordering smaller quantities more often.",
+        "examTip": "Working capital positive is good, but look at the composition. Cash is best. Inventory is worst."
+      },
+      {
+        "id": 4,
+        "text": "Explain the difference between administration and liquidation. Which is better for employees?",
+        "modelAnswer": "Administration is a rescue attempt. An administrator tries to save the business by finding a buyer or restructuring debts. The goal is to keep the business alive. Liquidation is the end - all assets are sold and the business closes forever. Administration is better for employees because they might keep their jobs if a buyer is found. In liquidation, all jobs are lost immediately.",
+        "examTip": "Administration = rescue attempt. Liquidation = death. Know the difference."
+      },
+      {
+        "id": 5,
+        "text": "Classify each as Capital or Revenue Expenditure: (a) Buying a delivery van, (b) Petrol for the van, (c) Repairing the van's engine, (d) Buying a patent.",
+        "modelAnswer": "(a) Capital - the van lasts several years. (b) Revenue - petrol is consumed immediately. (c) Revenue - repairs maintain the asset but don't extend its life. (d) Capital - a patent provides protection for up to 20 years.",
+        "examTip": "Buying long-life assets = Capital. Daily running costs = Revenue. Repairs = Revenue (usually)."
+      }
+    ]
+  },
+    {
+    "id": 2,
+    "title": "2. Sources of Finance",
+    "content": [
+      {
+        "type": "heading",
+        "level": 2,
+        "text": "What are Sources of Finance?"
+      },
+      {
+        "type": "text",
+        "text": "Textbook Definition: Sources of finance are the different methods a business can use to obtain money, categorized by where the money comes from (internal or external) and how long it is available for (short-term or long-term)."
+      },
+      {
+        "type": "text",
+        "text": "Easy Way: Getting water when you are thirsty. You can drink from your own well (internal), ask a neighbor for a cup (short-term external), or pay someone to dig you a new well (long-term external). Each option has different costs and trade-offs."
+      },
+      {
+        "type": "heading",
+        "level": 3,
+        "text": "Internal Sources of Finance"
+      },
+      {
+        "type": "text",
+        "text": "Textbook Definition: Internal finance comes from within the business itself and does not require approval from external parties or repayment with interest."
+      },
+      {
+        "type": "table",
+        "headers": ["Source", "How It Works", "Real-Life Example", "The Catch"],
+        "rows": [
+          ["Retained earnings", "Profit kept in the business instead of paid to owners", "Apple kept $50 billion of its $99 billion profit in 2022 to develop new products", "Only available if you are already profitable"],
+          ["Sale of assets", "Selling things you no longer need", "McDonald's sold Dynamic Yield software for $300 million after using it for 3 years", "One-time source - once sold, it is gone forever"],
+          ["Owners' investment", "Owner putting in personal savings", "Elon Musk put his last $100 million into Tesla in 2008 when the company was dying", "Your personal money is at risk"],
+          ["Working capital reduction", "Collecting debts faster, paying suppliers slower", "Delta Airlines demanded customers pay in 7 days instead of 30, freeing up $2 billion", "May upset customers and suppliers"]
+        ]
+      },
+      {
+        "type": "text",
+        "text": "Berkshire Hathaway Story: Warren Buffett's company has NEVER paid a dividend. Every dollar of profit is retained and reinvested. Over 50 years, this allowed them to buy GEICO, Dairy Queen, Duracell, and thousands of other investments. Retained earnings funded their entire empire."
+      },
+      {
+        "type": "heading",
+        "level": 3,
+        "text": "External Short-Term Sources (Under 1 Year)"
+      },
+      {
+        "type": "text",
+        "text": "Textbook Definition: Short-term external finance is borrowed for less than one year and is typically used to manage working capital and temporary cash shortages."
+      },
+      {
+        "type": "table",
+        "headers": ["Source", "How It Works", "Real-Life Example", "Best For", "The Cost"],
+        "rows": [
+          ["Bank overdraft", "Bank lets you spend more than you have, up to a limit. Interest only on what you use.", "A store has $10,000 but needs $50,000 for Christmas inventory. Overdraft covers the gap for 3 months.", "Short-term gaps of days or weeks", "Interest 10-20% per year but only on what you use"],
+          ["Trade credit", "Suppliers let you take goods now and pay later, usually 30-90 days.", "A restaurant gets food deliveries Monday and pays 60 days later - after selling the food to customers.", "Daily purchases and inventory", "FREE if paid on time. Expensive fees if late (2-5% per month)"],
+          ["Debt factoring", "Selling unpaid customer invoices to a factor company for 80-90% of their value today.", "A manufacturer had $500,000 in unpaid invoices. Factored them for $425,000 cash today to make payroll.", "When customers pay slowly and you need cash NOW", "Fee of 10-30% of invoice value"]
+        ]
+      },
+      {
+        "type": "heading",
+        "level": 3,
+        "text": "External Long-Term Sources (1+ Years)"
+      },
+      {
+        "type": "text",
+        "text": "Textbook Definition: Long-term external finance is borrowed or raised for periods exceeding one year and is typically used for capital expenditure, expansion, or major projects."
+      },
+      {
+        "type": "table",
+        "headers": ["Source", "How It Works", "Real-Life Example", "Best For", "The Trade-Off"],
+        "rows": [
+          ["Bank loan", "Borrow fixed amount, repay monthly over 1-25 years with interest", "A bakery borrowed $50,000 for a new oven, repaid $1,000/month for 5 years", "Equipment, vehicles, property", "You pay interest even if you don't use the full amount. But you keep 100% control."],
+          ["Share capital", "Sell ownership stakes (shares) to investors. Never repay the money.", "Mark Zuckerberg sold 10% of Facebook to Peter Thiel for $500,000 in 2004. Thiel's shares became worth $1 billion.", "Growing fast, raising large amounts", "You lose some control. Shareholders can vote against you. You share profits forever."],
+          ["Venture capital", "Professional investors fund high-risk startups in exchange for 20-40% ownership and board seats.", "Sequoia Capital invested $600,000 in Airbnb in 2009. In 2020, that stake was worth $4 billion.", "Tech startups with no profits yet", "You give up significant control. VCs push for fast growth over profitability."],
+          ["Crowdfunding", "Thousands of people each give small amounts online for early product access or rewards.", "Pebble smartwatch asked for $100,000 on Kickstarter. 78,000 people gave $20 million.", "Creative products, consumer goods with passionate fans", "You must deliver to thousands of people. If you fail, your reputation is destroyed."],
+          ["Leasing", "Rent equipment instead of buying. Monthly payments. You never own it.", "A delivery company leases 50 vans for $500/month each instead of buying for $1.5 million.", "Vehicles, computers, anything that becomes outdated quickly", "You never own it. Long-term, leasing costs more than buying. But no big upfront payment."],
+          ["Government grants", "Free money from government that never has to be repaid. For specific activities only.", "A solar panel company received a $500,000 grant to open a factory in a deprived area, creating 50 jobs.", "Research, green energy, job creation in poor areas", "Hard to get. Lots of paperwork. Restricted to specific uses only."]
+        ]
+      },
+      {
+        "type": "text",
+        "text": "Airbnb's Venture Capital Story: In 2009, Airbnb was almost out of cash. They sold cereal boxes ('Obama O's' and 'Cap'n McCain's') to raise $30,000. Then Sequoia Capital invested $600,000 for a stake in the company. In 2020, Airbnb went public at $100 billion valuation. Sequoia's $600,000 was worth over $4 billion. But Sequoia had board seats and veto power over major decisions for 11 years."
+      },
+      {
+        "type": "heading",
+        "level": 3,
+        "text": "Business Ownership and Available Finance"
+      },
+      {
+        "type": "text",
+        "text": "Textbook Definition: The legal structure of a business determines which sources of finance are legally available to it."
+      },
+      {
+        "type": "table",
+        "headers": ["Business Type", "Unlimited Liability?", "Can Sell Shares?", "Sources Available", "Sources NOT Available"],
+        "rows": [
+          ["Sole Trader", "YES - you lose everything if the business fails", "NO - shares do not exist", "Owner savings, bank loans, family, trade credit, overdraft, leasing", "Share capital, venture capital, stock market"],
+          ["Partnership", "YES - you and all partners lose everything", "NO - shares do not exist", "Partners' money, bank loans, trade credit, overdraft, leasing", "Share capital, stock market"],
+          ["Private Limited Company (Ltd)", "NO - only the business loses its assets", "YES - but only to approved investors, not the public", "Everything above PLUS shares sold privately, venture capital", "Public stock market"],
+          ["Public Limited Company (PLC)", "NO - only the business loses its assets", "YES - to anyone with money on the stock market", "LITERALLY EVERYTHING. Shares, debentures, all bank products.", "Nothing is off limits - but you must publish all financial results"]
+        ]
+      },
+      {
+        "type": "text",
+        "text": "Real Story That Shows Why This Matters: In 2019, a sole trader electrician named James took a $100,000 bank loan for a new van and equipment. His business failed in 2020 when COVID hit. Unlimited liability meant the bank took his house, his car, his savings. He lost everything. His friend Sarah ran the same business as a Private Limited Company. She also failed. She lost the business and her investment. But the bank could not touch her house. She kept her savings. Limited liability protected her personal life."
+      },
+      {
+        "type": "heading",
+        "level": 3,
+        "text": "How to Choose the Right Source - The DECIDE Framework"
+      },
+      {
+        "type": "text",
+        "text": "Textbook Definition: The selection of a finance source depends on multiple factors including cost, control, duration, and existing debt levels."
+      },
+      {
+        "type": "table",
+        "headers": ["Factor", "Question to Ask", "Real Decision Example", "Mistake to Avoid"],
+        "rows": [
+          ["D - Debt level", "How much do I already owe? Will new lenders say no?", "A company with $10 million debt will struggle to get another $1 million loan. But they could sell shares because shareholders don't care about debt.", "Borrowing more when you are already drowning in debt"],
+          ["E - Exit/control", "Am I willing to give up ownership and decision-making?", "Bank loan = you keep 100% control but must make interest payments. Venture capital = you give up 30% control but get expertise and connections.", "Giving up control for cheap money or keeping control with expensive money - know your priority"],
+          ["C - Cost", "What is the total cost of this money? Interest? Ownership?", "Bank loan at 8% costs $8,000 per year. Selling 10% of your company costs 10% of future profits forever. Which is cheaper in the long run?", "Only looking at interest rates. Ownership costs can be much higher over time."],
+          ["I - Internal funds", "Do I already have profit sitting in the bank?", "Retained earnings cost NOTHING. No interest. No control loss. Apple has $200 billion in cash. They never borrow for operations.", "Borrowing money when you have cash sitting in the bank - throwing away interest payments"],
+          ["D - Duration", "How long do I need this money?", "Buying a building that lasts 40 years? Get a 25-year mortgage. Need cash for 3 months for seasonal dip? Get an overdraft.", "Using short-term finance for long-term assets. The asset lasts 10 years but the loan is due in 1 year - forced to sell the asset to repay."],
+          ["E - External conditions", "What is happening in the economy? Are banks lending?", "In the 2008 financial crisis, banks stopped lending completely. Crowdfunding exploded. Businesses that adapted survived.", "Assuming the same options are always available. They are not. Economy changes."]
+        ]
+      },
+      {
+        "type": "text",
+        "text": "The Golden Rule of Finance Matching: Short-term needs MUST be funded with short-term finance. Long-term needs MUST be funded with long-term finance. If you buy a $1 million factory that will last 20 years using a 1-year bank loan, you will be forced to sell the factory in 12 months to repay the loan. This is insanity. But businesses do this every day and fail. Do not be one of them."
+      },
+      {
+        "type": "heading",
+        "level": 3,
+        "text": "Reddit's IPO Story - Why Going Public Matters"
+      },
+      {
+        "type": "text",
+        "text": "Reddit had been a private company since 2005, funded by venture capital. In March 2024, they went public (became a PLC). This allowed them to raise $748 million by selling shares to anyone on the New York Stock Exchange. As a private company, they could only sell shares to approved investors. Going public opened up a massive new source of finance - the entire world's investors."
+      }
+    ],
+    "questions": [
+      {
+        "id": 6,
+        "text": "A freelance graphic designer (sole trader) wants to rent an office for $2,000 per month and buy a $15,000 computer. She has $8,000 savings. Her friend offers to invest $20,000 for 30% of the business. The bank offers a $20,000 loan at 10% interest over 5 years. Which should she choose and why?",
+        "modelAnswer": "She should take the BANK LOAN. As a sole trader, her friend's 'investment' is not real shares - she cannot create shares because she is not a company. The friend would actually become a partner with unlimited liability. If the business fails, the friend could lose personal assets too. The bank loan costs 10% interest ($2,000 per year) but she keeps 100% control. The monthly payment is about $425. She should use her $8,000 savings for the office deposit and computer down payment, then borrow only $10,000 instead of $20,000.",
+        "examTip": "Always check ownership structure first. Sole traders cannot issue shares. The 'friend investment' creates a partnership with unlimited liability."
+      },
+      {
+        "id": 7,
+        "text": "A software startup has 1 million users but no profit. They need $10 million to hire engineers and market globally. The founder has $50,000 savings. The bank rejected a loan. A VC offers $10 million for 40% of the company. Crowdfunding could raise $2-3 million but not $10 million. What should the founder do?",
+        "modelAnswer": "The founder should take the VENTURE CAPITAL. With no profits and no assets, bank loans are impossible. Crowdfunding will not raise $10 million for B2B software. VC is the only real option. Giving up 40% is painful, but 60% of a $1 billion company ($600 million) is better than 100% of a failed company ($0). The VC will want board seats and push for rapid growth. But successful startups like Google, Facebook, and Uber all took VC money. Accept the VC, negotiate for 30% instead of 40% if possible, and focus on building value.",
+        "examTip": "When a business has no profits and no assets, bank loans are impossible. VC or crowdfunding are the only options. VC is for high growth. Crowdfunding is for consumer products."
+      },
+      {
+        "id": 8,
+        "text": "A small manufacturing company needs $100,000 for 3 months to cover a seasonal inventory build-up before Christmas. They own their building worth $1 million. Should they use a bank overdraft, a 5-year bank loan, or sell shares? Explain why.",
+        "modelAnswer": "They should use a BANK OVERDRAFT. This is a short-term need (3 months) for seasonal inventory. Matching principle: short-term need = short-term finance. A 5-year bank loan would charge interest for 60 months when they only need the money for 3 months. Selling shares would permanently give away ownership for a temporary need. An overdraft allows them to borrow only what they need, only pay interest on what they use, and repay when Christmas sales come in. If they have a good relationship with their bank, they could also negotiate trade credit with suppliers - ask to pay in 90 days instead of 30, which is free financing.",
+        "examTip": "Match the duration: Short-term needs (days to months) = overdraft or trade credit. Long-term needs (years) = bank loan or shares."
+      },
+      {
+        "id": 9,
+        "text": "Explain the difference between retained earnings and share capital. Which is cheaper? Which gives up more control?",
+        "modelAnswer": "Retained earnings are profits the business has kept and reinvested instead of paying out to owners. Share capital is money raised by selling ownership stakes (shares) to investors. Retained earnings are CHEAPER because they cost nothing - no interest, no ownership given up. Share capital gives up CONTROL because shareholders can vote on major decisions and receive a share of future profits forever. However, retained earnings are only available if the business is already profitable. A startup with no profits cannot use retained earnings. They must use share capital or other external sources. For an established profitable business, retained earnings should always be used first because they are free.",
+        "examTip": "Retained earnings = free money but only if profitable. Share capital = expensive in the long run (you share profits forever) but available even with no profits."
+      },
+      {
+        "id": 10,
+        "text": "A business owner says, 'I will never give up any ownership. I will only use bank loans and retained earnings.' What are the risks of this approach? When might this strategy fail?",
+        "modelAnswer": "The risks of avoiding share capital entirely: (1) Bank loans require interest payments regardless of whether the business is making money. In a bad year, interest payments can bankrupt the business. Shares only get paid if there are profits. (2) Bank loans require collateral (assets to secure the loan). If the business has no assets, banks will not lend. (3) Bank loans have fixed repayment schedules. If the business has a cash flow problem, they cannot skip a payment. Shares never need to be repaid. (4) The business cannot grow as fast because they can only use retained earnings (which accumulate slowly) or bank loans (which require debt capacity). This strategy fails when: the business needs large amounts of capital quickly, the business has no assets for collateral, the business has unpredictable profits (making interest payments risky), or the business is a startup with no track record. Many of the world's largest companies - Google, Facebook, Amazon, Tesla - all sold shares to grow. Refusing to ever give up ownership can limit growth or kill the business entirely.",
+        "examTip": "Debt (loans) = fixed payments, collateral required, but keep control. Equity (shares) = no fixed payments, no collateral, but give up control and future profits. Each has trade-offs."
+      }
+    ]
+  },
+  {
+    "id": 3,
+    "title": "3. Cash Flow Forecasts",
+    "content": [
+      {
+        "type": "heading",
+        "level": 2,
+        "text": "What is a Cash Flow Forecast?"
+      },
+      {
+        "type": "text",
+        "text": "Textbook Definition: A cash flow forecast is a prediction of all expected cash inflows (money coming in) and outflows (money going out) over a future period, showing the expected bank balance at the end of each period."
+      },
+      {
+        "type": "text",
+        "text": "Easy Way: A cash flow forecast is like a weather forecast for your money. It tells you when rainy days (cash shortages) are coming so you can pack an umbrella (arrange an overdraft or delay a payment)."
+      },
+      {
+        "type": "text",
+        "text": "Why This Exists: Businesses do not fail because they are unprofitable. They fail because they run out of cash. A cash flow forecast prevents this by predicting shortages BEFORE they happen."
+      },
+      {
+        "type": "heading",
+        "level": 3,
+        "text": "The Structure of a Cash Flow Forecast"
+      },
+      {
+        "type": "text",
+        "text": "Textbook Definition: A cash flow forecast has six key components arranged in a specific sequence: opening balance, total inflows, total outflows, net cash flow, and closing balance."
+      },
+      {
+        "type": "table",
+        "headers": ["Row", "Item", "Month 1", "Month 2", "Month 3"],
+        "rows": [
+          ["1", "Opening balance", "$1,000", "$500", "($200)"],
+          ["2", "Cash sales", "$1,500", "$1,200", "$2,500"],
+          ["3", "Credit sales collected", "$500", "$300", "$500"],
+          ["4", "Total inflows", "$2,000", "$1,500", "$3,000"],
+          ["5", "Rent", "$1,000", "$1,000", "$1,000"],
+          ["6", "Supplies", "$800", "$1,000", "$800"],
+          ["7", "Wages", "$700", "$700", "$700"],
+          ["8", "Marketing", "$200", "$200", "$200"],
+          ["9", "Total outflows", "$2,700", "$2,900", "$2,900"],
+          ["10", "Net cash flow", "($700)", "($1,400)", "$100"],
+          ["11", "Closing balance", "$300", "($1,100)", "($1,000)"]
+        ]
+      },
+      {
+        "type": "text",
+        "text": "The Two Critical Formulas: Net Cash Flow = Total Inflows - Total Outflows. Closing Balance = Opening Balance + Net Cash Flow."
+      },
+      {
+        "type": "text",
+        "text": "Red Flag Rule: If closing balance becomes negative at ANY point, the business will run out of cash. This must be fixed before it happens."
+      },
+      {
+        "type": "heading",
+        "level": 3,
+        "text": "How to Interpret a Cash Flow Forecast"
+      },
+      {
+        "type": "text",
+        "text": "Textbook Definition: Interpretation involves analyzing the forecast to identify potential cash shortages, surpluses, and patterns that require management action."
+      },
+      {
+        "type": "table",
+        "headers": ["Pattern", "What It Means", "Action Required"],
+        "rows": [
+          ["Negative closing balance", "Will run out of cash", "Arrange overdraft, delay payments, factor invoices"],
+          ["Seasonal pattern", "Cash high in summer, low in winter", "Save surplus in good months to cover bad months"],
+          ["Rising outflows", "Costs increasing faster than sales", "Investigate why - suppliers raised prices? Hiring more staff?"],
+          ["Falling inflows", "Sales declining or customers paying slower", "Increase marketing, chase late payers, offer discounts"],
+          ["Large one-off inflow", "Loan received or asset sold", "Do not treat as normal - plan for when it is gone"],
+          ["Large one-off outflow", "Major purchase or tax payment", "Ensure surplus saved in advance"]
+        ]
+      },
+      {
+        "type": "text",
+        "text": "Netflix Story (2011): Netflix forecasted that streaming rights costs would exceed cash available in Q3 2012. This prediction allowed them to raise $400 million in debt BEFORE the crisis hit. Competitors who did not forecast ran out of cash and died (Blockbuster, LoveFilm)."
+      },
+      {
+        "type": "heading",
+        "level": 3,
+        "text": "Benefits of Cash Flow Forecasting"
+      },
+      {
+        "type": "table",
+        "headers": ["Benefit", "Explanation", "Real Impact"],
+        "rows": [
+          ["Predicts shortages", "See problems months before they happen", "Time to arrange overdraft instead of panicking"],
+          ["Helps get loans", "Banks require forecasts before lending", "Shows you are professional and have planned"],
+          ["Measures growth affordability", "Shows if expansion will drain cash", "Avoids overtrading (growing too fast)"],
+          ["Reveals seasonal patterns", "Shows when cash is tight every year", "Plan marketing and hiring around cycles"],
+          ["Improves supplier negotiations", "Shows when you can pay early for discounts", "\"I will pay in 10 days if you give 5% off\""]
+        ]
+      },
+      {
+        "type": "heading",
+        "level": 3,
+        "text": "Limitations of Cash Flow Forecasting"
+      },
+      {
+        "type": "table",
+        "headers": ["Limitation", "Explanation", "How to Mitigate"],
+        "rows": [
+          ["Only as good as estimates", "Garbage in, garbage out", "Use historical data, be conservative"],
+          ["Unexpected events happen", "Machine breaks, customer does not pay, pandemic", "Build in a contingency buffer (10-20%)"],
+          ["Human bias (optimism)", "Everyone overestimates sales", "Force yourself to use worst-case scenario"],
+          ["Does not show profit", "Great cash flow but losing money on every sale", "Always forecast profit AND cash separately"],
+          ["Time-consuming", "Takes hours to build and update", "Use templates or accounting software"]
+        ]
+      },
+      {
+        "type": "text",
+        "text": "The Truth: A cash flow forecast is NOT a prediction. It is a PLAN. When reality differs (it always does), you update the forecast. The value is in the thinking process, not the numbers themselves."
+      },
+      {
+        "type": "heading",
+        "level": 3,
+        "text": "Causes of Cash Flow Problems (The 5 Killers)"
+      },
+      {
+        "type": "text",
+        "text": "Textbook Definition: Cash flow problems arise when cash outflows consistently exceed inflows, often due to poor management of working capital or external shocks."
+      },
+      {
+        "type": "table",
+        "headers": ["Cause", "What It Means", "Real Example"],
+        "rows": [
+          ["Overtrading", "Growing too fast, selling more than you can fund", "A catering company wins a huge contract for 1,000 meals/day but needs $50,000 for ingredients before getting paid"],
+          ["Slow payers", "Customers taking forever to pay", "A construction company completed a building 6 months ago. The client still has not paid the $500,000 invoice."],
+          ["Seasonal dips", "Natural cycles where sales drop", "An ice cream shop makes 80% of annual sales in June-August. In January, they have bills but no customers."],
+          ["Unexpected costs", "Surprise expenses", "A restaurant's walk-in freezer breaks. New freezer costs $15,000. Insurance does not cover it."],
+          ["Overstocking", "Too much inventory that will not sell", "A clothing retailer buys 10,000 winter coats. Winter is mild. They sell 2,000. $200,000 is trapped in unsold coats."]
+        ]
+      },
+      {
+        "type": "text",
+        "text": "British Home Stores Story (2016): The retailer expanded too quickly, opening 50 new stores in 2 years. They did not have enough working capital to stock all the new locations. Shelves were empty. Customers stopped coming. The company collapsed with a £571 million pension deficit. Overtrading was the primary cause."
+      },
+      {
+        "type": "heading",
+        "level": 3,
+        "text": "Methods of Improving Cash Flow (The 7 Levers)"
+      },
+      {
+        "type": "text",
+        "text": "Textbook Definition: Cash flow can be improved by accelerating inflows, delaying outflows, or converting assets to cash."
+      },
+      {
+        "type": "table",
+        "headers": ["Lever", "How It Works", "Example", "Time to Implement"],
+        "rows": [
+          ["Faster collections", "Get customers to pay sooner", "\"Pay in 10 days, get 3% off\"", "Immediate"],
+          ["Slower payments", "Pay suppliers later", "Negotiate 60 days instead of 30", "1-4 weeks"],
+          ["Overdraft", "Borrow to cover gaps", "Bank approves $100,000 overdraft facility", "1-2 weeks"],
+          ["Sell assets", "Convert stuff to cash", "Sell the old delivery van for $5,000", "1-4 weeks"],
+          ["Reduce stock", "Do not hold so much inventory", "Order supplies weekly, not monthly", "Immediate"],
+          ["Delay expansion", "Stop spending on growth", "Wait 6 months for new location", "Immediate"],
+          ["Debt factoring", "Sell unpaid invoices", "Get 80% of invoice value TODAY", "2-5 days"]
+        ]
+      },
+      {
+        "type": "text",
+        "text": "Tesla Story (2018): Tesla was burning through $1 billion per quarter. Elon Musk demanded customers pay a $1,000 deposit for the Model 3 - 18 months BEFORE delivery. This generated $500 million in immediate cash from 500,000 deposits. Customers paid early → Tesla got cash → problem solved. This is 'faster collections' taken to an extreme."
+      },
+      {
+        "type": "heading",
+        "level": 3,
+        "text": "The Prioritization Framework"
+      },
+      {
+        "type": "table",
+        "headers": ["Urgency", "Best Method", "Why"],
+        "rows": [
+          ["Emergency (tomorrow)", "Overdraft, delay payments to suppliers", "Fastest to implement, no negotiation needed"],
+          ["Short-term (this month)", "Factoring, sell assets, reduce stock", "Takes a few days to 2 weeks, provides immediate cash"],
+          ["Medium-term (3 months)", "Faster collections, negotiate better terms", "Requires customer/supplier agreement but sustainable"],
+          ["Long-term (permanent)", "Change business model to require less working capital", "Structural fix, prevents future problems"]
+        ]
+      }
+    ],
+    "questions": [
+      {
+        "id": 11,
+        "text": "A toy store forecasts: Opening balance $5,000, Inflows $10,000, Outflows $16,000. Calculate the closing balance. Is this a problem? What should they do?",
+        "modelAnswer": "Closing balance = $5,000 + $10,000 - $16,000 = ($1,000) NEGATIVE. This is a serious problem - they will have negative $1,000 in the bank. Solutions: (1) Arrange an overdraft NOW before the shortage happens, (2) Ask suppliers for longer credit (delay outflows), (3) Offer customers discounts for early payment (accelerate inflows), (4) Delay the purchase of non-essential supplies. The most urgent action is the overdraft because it can be arranged within days.",
+        "examTip": "When you see a negative closing balance, your first word should be 'overdraft.' Then add 2-3 other methods."
+      },
+      {
+        "id": 12,
+        "text": "A consulting firm has huge profits but always runs out of cash. Their clients pay 90 days after invoicing. Name two specific ways to fix this and explain how each works.",
+        "modelAnswer": "Method 1 - Debt factoring: Sell those 90-day invoices to a factor company. Get 80-90% of the cash within 48 hours instead of waiting 90 days. The factor collects the full amount from clients later. The fee (10-20%) is worth avoiding cash crisis. Method 2 - Offer discounts for early payment: 'Pay in 10 days, get 3% off.' This reduces profit slightly but converts sales to cash immediately. Many clients will take the discount if it saves them money. A third method is to renegotiate payment terms with clients before signing contracts - ask for 30 days instead of 90 days, or request monthly progress payments.",
+        "examTip": "When clients pay slowly, the answer is ALWAYS factoring or discounts. Those are the two standard exam answers for slow payers."
+      },
+      {
+        "id": 13,
+        "text": "A seasonal business makes 80% of its sales in November-December. They have $200,000 in expenses spread evenly throughout the year. Explain their cash flow problem and suggest two solutions.",
+        "modelAnswer": "The problem is seasonal cash flow mismatch. They have high expenses every month (rent, wages, utilities) but only receive cash for 2 months of the year. By March, they have no cash left but still have bills to pay. Solution 1: Save surplus cash from November-December in a separate account and use it to cover expenses in the slow months (January-October). This requires discipline to not spend the surplus immediately. Solution 2: Arrange a seasonal overdraft facility with the bank - borrow during slow months and repay when the busy season arrives. Many banks offer special seasonal products for businesses like ice cream shops, holiday retailers, and landscaping companies. Solution 3: Diversify into complementary products during slow months - a Christmas store could sell birthday party supplies in summer.",
+        "examTip": "Seasonal businesses need to save surplus from good months or arrange seasonal overdrafts. Examiners expect both solutions."
+      },
+      {
+        "id": 14,
+        "text": "A company forecasts: Month 1 closing balance $10,000, Month 2 inflows $50,000, Month 2 outflows $70,000. What is the Month 2 closing balance? What action should they take in Month 1?",
+        "modelAnswer": "Month 2 net cash flow = $50,000 - $70,000 = ($20,000). Month 2 closing balance = $10,000 + ($20,000) = ($10,000) NEGATIVE. They will run out of cash in Month 2. Action to take IN MONTH 1 (before the shortage happens): Arrange an overdraft facility of at least $10,000. Also, contact major customers to ask for early payment - offer a 2% discount if they pay in Month 1 instead of Month 2. Contact suppliers to ask if they can delay $10,000 of payments from Month 2 to Month 3. The key is to act BEFORE the shortage occurs, not after.",
+        "examTip": "Always act on forecasted shortages BEFORE they happen. Once you are negative, it is harder to negotiate."
+      },
+      {
+        "id": 15,
+        "text": "Explain three limitations of cash flow forecasting. Why is a forecast still useful despite these limitations?",
+        "modelAnswer": "Limitation 1: Only as good as estimates. If sales forecasts are too optimistic, the cash flow forecast will be wrong. Mitigation: Use conservative estimates and historical data. Limitation 2: Unexpected events happen. A machine breaks, a customer goes bankrupt, a pandemic hits. No forecast can predict everything. Mitigation: Build in a 10-20% contingency buffer. Limitation 3: Human bias (optimism). Owners overestimate sales and underestimate costs because they want the business to succeed. Mitigation: Force yourself to create a 'worst case' scenario alongside the 'best case.' Despite these limitations, a forecast is still useful because: (1) It forces you to think ahead and identify potential problems before they happen, (2) Banks require forecasts before lending money, so you cannot get a loan without one, (3) Even an imperfect forecast is better than no forecast - flying blind is guaranteed failure. The value is in the planning process, not the accuracy of the numbers.",
+        "examTip": "Limitations of forecasting is a common exam question. Always mention optimism bias, unexpected events, and estimate accuracy. Then explain why it is still worth doing."
+      }
+    ]
+  },
+    {
+    "id": 4,
+    "title": "4. Costing Methods",
+    "content": [
+      {
+        "type": "heading",
+        "level": 2,
+        "text": "Types of Costs - The Foundation"
+      },
+      {
+        "type": "text",
+        "text": "Textbook Definitions: Fixed costs are costs that do NOT change with the level of output. Variable costs are costs that change DIRECTLY with the level of output. Direct costs can be traced directly to a specific product. Indirect costs (overheads) cannot be traced to a specific product and are shared across the business."
+      },
+      {
+        "type": "table",
+        "headers": ["Cost Type", "Definition", "Example", "Changes With Output?"],
+        "rows": [
+          ["Fixed costs", "Costs that do NOT change with output", "Rent $5,000/month, Manager salary $8,000/month", "NO - same at 0 or 10,000 units"],
+          ["Variable costs", "Costs that change DIRECTLY with output", "Raw materials $2 per unit, Packaging $0.50 per unit", "YES - increases with each unit made"],
+          ["Direct costs", "Costs traced directly to a specific product", "The leather in a shoe, the flour in a bread loaf", "Can be fixed OR variable"],
+          ["Indirect costs", "Costs shared across the business", "Factory electricity, head office salaries", "Can be fixed OR variable"]
+        ]
+      },
+      {
+        "type": "text",
+        "text": "The Pizza Shop Example: Rent is $2,000 per month - same whether you sell 1 pizza or 1,000. Manager salary is $3,000 per month - same regardless of sales. Flour, cheese, and pepperoni cost $3 per pizza - increases with each pizza sold. Oven electricity is $500 per month - hard to trace to one pizza, shared across all pizzas."
+      },
+      {
+        "type": "text",
+        "text": "Easy Way: Fixed costs are like a membership fee - you pay it whether you use the service or not. Variable costs are like pay-per-use - you only pay when you buy something."
+      },
+      {
+        "type": "heading",
+        "level": 3,
+        "text": "Full Costing (Absorption Costing)"
+      },
+      {
+        "type": "text",
+        "text": "Textbook Definition: Full costing is a method that allocates ALL costs (both direct and indirect) to each product or service, including a share of overheads."
+      },
+      {
+        "type": "table",
+        "headers": ["Cost", "Bread", "Cakes", "How It Is Allocated"],
+        "rows": [
+          ["Direct flour", "$1.00", "$0.50", "Actual amount used"],
+          ["Direct labor", "$0.50", "$1.00", "Actual hours worked"],
+          ["Share of rent (fixed)", "$0.30", "$0.30", "Based on floor space used"],
+          ["Share of manager salary", "$0.20", "$0.20", "Based on sales value"],
+          ["Share of electricity", "$0.10", "$0.10", "Based on machine hours"],
+          ["FULL COST", "$2.10", "$2.10", "All costs included"]
+        ]
+      },
+      {
+        "type": "text",
+        "text": "When to Use Full Costing: Setting long-term prices (you need to cover EVERY cost eventually), deciding overall profitability of the business, and reporting to shareholders and tax authorities (required by accounting standards)."
+      },
+      {
+        "type": "text",
+        "text": "The Problem with Full Costing: Allocating fixed costs is ARBITRARY - it is basically guessing. Bread might NOT really cause that rent cost. The rent would exist even if you stopped making bread. Full costing can make profitable products look unprofitable because of how you 'share' the fixed costs."
+      },
+      {
+        "type": "heading",
+        "level": 3,
+        "text": "Contribution Costing (Marginal Costing)"
+      },
+      {
+        "type": "text",
+        "text": "Textbook Definition: Contribution costing only includes VARIABLE costs in the product cost. Fixed costs are treated as a lump sum that must be covered by the total contribution from ALL products combined."
+      },
+      {
+        "type": "text",
+        "text": "The Formula: Contribution = Selling Price - Variable Cost"
+      },
+      {
+        "type": "table",
+        "headers": ["Item", "Bread", "Cakes"],
+        "rows": [
+          ["Selling price", "$3.00", "$3.00"],
+          ["Variable cost (flour + direct labor only)", "$1.50", "$1.50"],
+          ["CONTRIBUTION", "$1.50", "$1.50"]
+        ]
+      },
+      {
+        "type": "text",
+        "text": "That $1.50 per loaf is what 'contributes' to covering fixed costs (rent, manager salary, electricity). After all fixed costs are covered, every additional $1.50 of contribution becomes profit."
+      },
+      {
+        "type": "text",
+        "text": "Easy Way: Fixed costs are a pit you have to fill. Contribution is the shovel - each unit you sell throws some dirt in the pit. Once the pit is full, every shovel after that is pure profit."
+      },
+      {
+        "type": "table",
+        "headers": ["Units Sold", "Total Contribution", "Fixed Costs", "Profit/Loss"],
+        "rows": [
+          ["0", "$0", "$10,000", "($10,000) loss"],
+          ["1,000", "$10,000", "$10,000", "$0 break-even"],
+          ["2,000", "$20,000", "$10,000", "$10,000 profit"],
+          ["5,000", "$50,000", "$10,000", "$40,000 profit"]
+        ]
+      },
+      {
+        "type": "text",
+        "text": "The Critical Insight: Contribution costing shows that once you have sold enough to cover fixed costs, EVERY additional sale is almost pure profit (just minus small variable costs). This changes how you think about pricing and special offers."
+      },
+      {
+        "type": "heading",
+        "level": 3,
+        "text": "The Special Order Decision - The Most Common Exam Question"
+      },
+      {
+        "type": "text",
+        "text": "Textbook Definition: A special order decision involves accepting or rejecting a one-time order at a price different from normal, typically when the business has spare capacity."
+      },
+      {
+        "type": "text",
+        "text": "The Scenario: A factory normally sells a product for $100. Variable cost is $60. Fixed costs are $500,000 per month. Currently, they produce 10,000 units per month but have capacity for 15,000 units. A customer offers to buy 2,000 units at $70 each - well below the normal $100 price."
+      },
+      {
+        "type": "text",
+        "text": "The Contribution Costing Answer: Special order price $70 minus variable cost $60 = Contribution $10 per unit. Total contribution from special order = 2,000 × $10 = $20,000. Decision: ACCEPT."
+      },
+      {
+        "type": "text",
+        "text": "Why? Fixed costs are already covered by existing production. The special order does not increase fixed costs at all. The $20,000 contribution goes directly to profit."
+      },
+      {
+        "type": "table",
+        "headers": ["Scenario", "Decision", "Why"],
+        "rows": [
+          ["Spare capacity + positive contribution", "ACCEPT", "Fixed costs already covered, adds to profit"],
+          ["Below break-even + positive contribution", "ACCEPT", "Helps cover fixed costs"],
+          ["No spare capacity (at maximum output)", "REJECT", "Would lose normal sales"],
+          ["Price below variable cost", "REJECT", "Loses money on every unit"]
+        ]
+      },
+      {
+        "type": "text",
+        "text": "Airline Industry Example: An airline has a flight from New York to London with 50 empty seats. The variable cost per passenger (fuel, food, extra baggage handling) is $100. Normal ticket price is $800. A customer offers $200 for a last-minute ticket. ACCEPT. The $100 contribution ($200 - $100 variable cost) is pure profit since the plane was flying anyway. This is why airlines sell last-minute seats cheap."
+      },
+      {
+        "type": "heading",
+        "level": 3,
+        "text": "When to Use Contribution Costing vs. When NOT To"
+      },
+      {
+        "type": "table",
+        "headers": ["Situation", "Use Contribution Costing?", "Why"],
+        "rows": [
+          ["Special order decision", "YES", "Fixed costs will not change in short term"],
+          ["Stop selling a product?", "YES", "If contribution is positive, keep it (helps cover fixed costs)"],
+          ["Short-term pricing (next 3 months)", "YES", "Fixed costs are already committed"],
+          ["Long-term pricing (next 3 years)", "NO", "In long run, ALL costs must be covered"],
+          ["Full profitability analysis", "NO", "You will ignore fixed costs that ARE your problem"],
+          ["Business at 100% capacity", "NO", "No spare capacity - every product must cover full cost"],
+          ["Reporting to shareholders", "NO", "Accounting standards require full costing"],
+          ["Deciding to close a factory", "NO", "Fixed costs would disappear if you close"]
+        ]
+      }
+    ],
+    "questions": [
+      {
+        "id": 16,
+        "text": "A hotel has fixed costs of $100,000 per month. Variable cost per room night = $40. Selling price = $100. What is the contribution per room night? How many room nights to cover fixed costs?",
+        "modelAnswer": "Contribution = $100 - $40 = $60 per room night. Break-even (to cover fixed costs) = $100,000 ÷ $60 = 1,667 room nights. If the hotel sells 1,667 rooms, total contribution = $100,000 exactly covering fixed costs. Room number 1,668 generates $60 profit. Room number 2,000 generates (2,000 - 1,667) × $60 = $19,980 profit.",
+        "examTip": "Contribution per unit is ALWAYS selling price minus variable cost. Never include fixed costs in contribution calculation."
+      },
+      {
+        "id": 17,
+        "text": "A factory is operating at 60% capacity. A customer offers $15 for a product with variable cost $12 and full cost $20 (including allocated fixed costs). Should they accept? Why?",
+        "modelAnswer": "YES - accept the order. Contribution = $15 - $12 = $3 positive. Fixed costs are already being covered by existing production since the factory is only at 60% capacity. The special order does not increase fixed costs. The $3 contribution per unit adds directly to profit. The full cost of $20 is irrelevant for this short-term decision because fixed costs will not change whether they accept or reject. If they accept 10,000 units, they add $30,000 to profit.",
+        "examTip": "When you see 'spare capacity' or 'operating below capacity' in a question, immediately think: accept any order with positive contribution."
+      },
+      {
+        "id": 18,
+        "text": "A company makes two products. Product A has selling price $50, variable cost $30. Product B has selling price $100, variable cost $70. Fixed costs are $200,000. Which product has a higher contribution per unit? Which product is more profitable if they sell 5,000 units of each?",
+        "modelAnswer": "Product A contribution = $50 - $30 = $20 per unit. Product B contribution = $100 - $70 = $30 per unit. Product B has higher contribution per unit. For 5,000 units: Product A total contribution = 5,000 × $20 = $100,000. Product B total contribution = 5,000 × $30 = $150,000. Total contribution from both = $250,000. Profit = $250,000 - $200,000 fixed costs = $50,000. Product B contributes more to covering fixed costs and profit. However, this assumes they have enough demand and capacity for both products. If capacity is limited, they should prioritize Product B because it gives $30 per unit versus $20 per unit.",
+        "examTip": "Higher contribution per unit is better when capacity is limited. Higher total contribution is better when you can sell unlimited quantities."
+      },
+      {
+        "id": 19,
+        "text": "A company is considering stopping Product X because it shows a loss under full costing. Full cost of Product X is $25, selling price is $22. Variable cost is $10. Fixed costs allocated to Product X are $15. Should they stop selling Product X? Explain.",
+        "modelAnswer": "NO - they should NOT stop selling Product X. Under contribution costing, Product X contribution = $22 - $10 = $12 positive. This means Product X contributes $12 per unit toward covering fixed costs. If they stop Product X, they lose that $12 contribution but the fixed costs ($15 allocated) do NOT disappear - they will just be reallocated to other products. Total profit would actually DECREASE by $12 per unit. The full cost of $25 is misleading because it includes an arbitrary allocation of fixed costs. As long as contribution is positive, the product should be kept in the short term. The only time to stop a product is if contribution is negative (selling price below variable cost) or if there is a better use of the resources (capacity constraint).",
+        "examTip": "If contribution is positive, keep the product. Fixed costs do not disappear when you stop a product. This is a classic exam trap."
+      },
+      {
+        "id": 20,
+        "text": "A company has a special order for 1,000 units at $8 each. Variable cost is $6 per unit. Normal selling price is $12. The company is already at 100% capacity. Should they accept?",
+        "modelAnswer": "NO - they should NOT accept. Even though contribution is positive ($8 - $6 = $2 per unit, total $2,000), they are at 100% capacity. Accepting the special order means they must give up 1,000 units of normal sales at $12 each. The contribution lost from normal sales = $12 - $6 = $6 per unit, total $6,000. Net effect = $2,000 gain from special order - $6,000 loss from normal sales = $4,000 LOSS. They would be worse off by $4,000. The only way to accept would be if the special order customer pays more than the normal contribution ($6) or if they can increase capacity (overtime, extra shift).",
+        "examTip": "At full capacity, a special order must cover the contribution of lost normal sales. Compare special order contribution to normal contribution, not just to variable cost."
+      }
+    ]
+  },
+    {
+    "id": 5,
+    "title": "5. Break-Even Analysis",
+    "content": [
+      {
+        "type": "heading",
+        "level": 2,
+        "text": "What is Break-Even Analysis?"
+      },
+      {
+        "type": "text",
+        "text": "Textbook Definition: Break-even analysis calculates the level of output or sales at which total revenue equals total costs - the point where a business makes neither profit nor loss."
+      },
+      {
+        "type": "text",
+        "text": "Easy Way: Break-even is like the finish line in a race between costs and revenue. Before the line, you are losing money. After the line, you are making money. At the line, you have exactly recovered everything you spent."
+      },
+      {
+        "type": "heading",
+        "level": 3,
+        "text": "The Break-Even Formula"
+      },
+      {
+        "type": "text",
+        "text": "Break-even point (units) = Fixed Costs ÷ Contribution per unit"
+      },
+      {
+        "type": "text",
+        "text": "Where: Contribution per unit = Selling Price - Variable Cost"
+      },
+      {
+        "type": "text",
+        "text": "The 30-Second Example: You sell coffee mugs. Selling price = $10. Variable cost = $4. Fixed costs (rent, equipment) = $3,000. Contribution = $10 - $4 = $6 per mug. Break-even = $3,000 ÷ $6 = 500 mugs."
+      },
+      {
+        "type": "text",
+        "text": "What This Means: Sell 500 mugs → Revenue = $5,000, Variable costs = $2,000, Fixed costs = $3,000 → PROFIT = ZERO. Mug number 501 → Revenue $10, cost $4 → $6 profit. EVERY mug after 500 is pure profit (minus variable cost)."
+      },
+      {
+        "type": "heading",
+        "level": 3,
+        "text": "The Break-Even Chart"
+      },
+      {
+        "type": "text",
+        "text": "A break-even chart shows three lines: Fixed costs (horizontal line), Total costs (fixed + variable, diagonal line starting from fixed costs), and Total revenue (diagonal line starting from zero). Where revenue line crosses total cost line is the break-even point."
+      },
+      {
+        "type": "table",
+        "headers": ["Area on Chart", "What Is Happening", "Why"],
+        "rows": [
+          ["Left of break-even (0-499 units)", "LOSS", "Revenue line is BELOW total cost line"],
+          ["At break-even (500 units)", "ZERO PROFIT", "Revenue line MEETS total cost line"],
+          ["Right of break-even (501+ units)", "PROFIT", "Revenue line is ABOVE total cost line"]
+        ]
+      },
+      {
+        "type": "heading",
+        "level": 3,
+        "text": "Margin of Safety - Your Cushion"
+      },
+      {
+        "type": "text",
+        "text": "Textbook Definition: Margin of safety = Current output - Break-even output. It shows how much sales can fall before the business makes a loss."
+      },
+      {
+        "type": "text",
+        "text": "The Formula: Margin of safety (units) = Current output - Break-even output. Margin of safety (%) = (Current output - Break-even) ÷ Current output × 100."
+      },
+      {
+        "type": "text",
+        "text": "Example: You sell 800 mugs. Break-even is 500 mugs. Margin of safety = 800 - 500 = 300 mugs. Margin of safety (%) = 300 ÷ 800 × 100 = 37.5%."
+      },
+      {
+        "type": "text",
+        "text": "Easy Way: Margin of safety is your cushion or airbag. The bigger it is, the safer you are if sales crash. A 37.5% margin means sales could drop by more than a third before you start losing money."
+      },
+      {
+        "type": "table",
+        "headers": ["Margin of Safety", "Risk Level", "Action Required"],
+        "rows": [
+          ["Over 50%", "Very low risk", "Can withstand major sales drop"],
+          ["20-50%", "Moderate risk", "Monitor sales closely"],
+          ["10-20%", "High risk", "Any small problem causes losses"],
+          ["Under 10%", "Critical risk", "One bad week = bankruptcy"]
+        ]
+      },
+      {
+        "type": "heading",
+        "level": 3,
+        "text": "Further Uses of Break-Even Analysis"
+      },
+      {
+        "type": "text",
+        "text": "Target Profit Calculation: Units needed for target profit = (Fixed Costs + Target Profit) ÷ Contribution"
+      },
+      {
+        "type": "text",
+        "text": "Example: You want $6,000 profit. Fixed costs = $3,000. Contribution = $6. Units needed = ($3,000 + $6,000) ÷ $6 = 9,000 ÷ $6 = 1,500 units."
+      },
+      {
+        "type": "text",
+        "text": "Profit Shortcut: Profit = Margin of safety × Contribution per unit."
+      },
+      {
+        "type": "text",
+        "text": "Example: Margin of safety 300 units × Contribution $6 = $1,800 profit."
+      },
+      {
+        "type": "table",
+        "headers": ["Scenario", "New Break-Even", "Change", "Effect"],
+        "rows": [
+          ["Original: Price $10, VC $4, FC $3,000", "500 units", "-", "Base case"],
+          ["Raise price to $12 (Contribution = $8)", "375 units", "125 FEWER units", "Easier to break even"],
+          ["Lower price to $8 (Contribution = $4)", "750 units", "250 MORE units", "Harder to break even"],
+          ["Rent increases to $4,000 (FC up)", "667 units", "167 MORE units", "Harder to break even"],
+          ["Material cost rises to $5 (VC up to $5, Contribution down to $5)", "600 units", "100 MORE units", "Harder to break even"]
+        ]
+      },
+      {
+        "type": "heading",
+        "level": 3,
+        "text": "Benefits of Break-Even Analysis"
+      },
+      {
+        "type": "table",
+        "headers": ["Benefit", "Explanation", "Real Use"],
+        "rows": [
+          ["Simple to calculate", "Just three numbers needed", "Any employee can do it"],
+          ["Shows risk clearly", "See exactly how many units must be sold", "Helps decide if a business is worth starting"],
+          ["Shows margin of safety", "Quantifies how safe you are", "\"We can lose 40% of sales before losses\""],
+          ["Helps pricing decisions", "See impact of price changes", "\"If we lower price by $1, we need 200 more units\""],
+          ["Helps cost control", "See impact of cost increases", "\"If rent goes up 10%, we need 50 more sales\""]
+        ]
+      },
+      {
+        "type": "heading",
+        "level": 3,
+        "text": "Limitations of Break-Even Analysis"
+      },
+      {
+        "type": "table",
+        "headers": ["Limitation", "Reality", "Why It Matters"],
+        "rows": [
+          ["Assumes fixed costs never change", "They DO change at different scales", "Rent might increase after 10,000 units (need bigger factory)"],
+          ["Assumes variable cost per unit constant", "Bulk discounts change this", "Buying 1,000 units of material costs less per unit than 100 units"],
+          ["Assumes all output is sold", "Inventory exists", "You might make 1,000 units but only sell 800"],
+          ["Single product assumption", "Most businesses sell MANY products", "Apple sells iPhones, Macs, iPads, services - one break-even point is impossible"],
+          ["Linear relationships", "Real world is rarely straight lines", "Suppliers give discounts, workers get overtime pay - costs curve, do not stay straight"],
+          ["Static analysis", "Prices and costs change constantly", "Break-even today is different tomorrow"]
+        ]
+      },
+      {
+        "type": "text",
+        "text": "The Truth: Break-even analysis is a simplification, not reality. It is useful for thinking and comparing options, but never trust it as an exact prediction. Use it as a tool, not a truth."
+      }
+    ],
+    "questions": [
+      {
+        "id": 21,
+        "text": "Fixed costs = $10,000. Variable cost per unit = $20. Selling price = $30. Calculate break-even point. If they sell 1,500 units, what is the margin of safety (in units and percentage)?",
+        "modelAnswer": "Contribution = $30 - $20 = $10 per unit. Break-even = $10,000 ÷ $10 = 1,000 units. Margin of safety (units) = 1,500 - 1,000 = 500 units. Margin of safety (%) = 500 ÷ 1,500 × 100 = 33.3%. This means sales could drop by 33% (500 units) before the business makes a loss. If each unit sells for $30, the revenue safety cushion is 500 × $30 = $15,000.",
+        "examTip": "Always show both unit and percentage margin of safety if asked. The percentage is often more meaningful for comparisons between different sized businesses."
+      },
+      {
+        "id": 22,
+        "text": "A gym has break-even at 800 members. Current members = 1,000. Each member pays $50 per month. Variable cost per member = $10. What is the monthly profit? Use the shortcut method.",
+        "modelAnswer": "Shortcut method: Profit = Margin of safety × Contribution per unit. Margin of safety = 1,000 - 800 = 200 members. Contribution per member = $50 - $10 = $40. Profit = 200 × $40 = $8,000 per month. Check with full method: Total revenue = 1,000 × $50 = $50,000. Variable costs = 1,000 × $10 = $10,000. Fixed costs = 800 × $40 = $32,000 (from break-even formula). Profit = $50,000 - $10,000 - $32,000 = $8,000. The shortcut is faster and less error-prone.",
+        "examTip": "The shortcut (MoS × Contribution) is faster and less error-prone. Memorize it for exams."
+      },
+      {
+        "id": 23,
+        "text": "A company has fixed costs of $50,000. Selling price = $25. Variable cost = $15. They currently sell 8,000 units. Calculate: (a) break-even point, (b) margin of safety, (c) profit, (d) how many units to make $20,000 profit.",
+        "modelAnswer": "(a) Contribution = $25 - $15 = $10. Break-even = $50,000 ÷ $10 = 5,000 units. (b) Margin of safety = 8,000 - 5,000 = 3,000 units or 3,000 ÷ 8,000 × 100 = 37.5%. (c) Profit = 3,000 × $10 = $30,000. (d) Units for $20,000 profit = ($50,000 + $20,000) ÷ $10 = $70,000 ÷ $10 = 7,000 units. Check: At 7,000 units, profit = (7,000 - 5,000) × $10 = $20,000.",
+        "examTip": "Break-even is FC ÷ Contribution. Target profit units = (FC + Target) ÷ Contribution. These two formulas work together."
+      },
+      {
+        "id": 24,
+        "text": "A company currently sells 10,000 units at $20 each. Variable cost is $12 per unit. Fixed costs are $60,000. They are considering raising price to $22. They expect sales to drop to 9,000 units. Should they raise the price? Show your calculations.",
+        "modelAnswer": "Current situation: Contribution = $20 - $12 = $8. Total contribution = 10,000 × $8 = $80,000. Profit = $80,000 - $60,000 = $20,000. New situation: Contribution = $22 - $12 = $10. Total contribution = 9,000 × $10 = $90,000. Profit = $90,000 - $60,000 = $30,000. The price increase adds $10,000 to profit even with lower volume. They SHOULD raise the price. Break-even after price increase = $60,000 ÷ $10 = 6,000 units. They would be selling 9,000 units, well above break-even. The margin of safety improves from 4,000 units (10,000 - 6,000 original BE? Let me recalc original BE = $60,000 ÷ $8 = 7,500 units, MoS = 2,500 units) to 3,000 units (9,000 - 6,000).",
+        "examTip": "When evaluating price changes, calculate new contribution, new break-even, and new profit. Higher contribution per unit can offset lower volume."
+      },
+      {
+        "id": 25,
+        "text": "Explain three limitations of break-even analysis. Why do businesses still use it despite these limitations?",
+        "modelAnswer": "Limitation 1: Assumes fixed costs never change. In reality, fixed costs increase at different production levels (e.g., need bigger factory at 20,000 units). Limitation 2: Assumes all output is sold. In reality, businesses hold inventory. Unsold units do not generate revenue but still incurred variable costs. Limitation 3: Single product assumption. Most businesses sell multiple products with different prices and costs. A single break-even point is impossible. Businesses still use break-even analysis because: (1) It is simple and quick to calculate, (2) It provides a useful 'ballpark' figure for decision making, (3) It helps compare different scenarios (price changes, cost changes), (4) It forces managers to think about the relationship between costs, volume, and profit. Even with limitations, a rough estimate is better than no estimate. The key is to understand the limitations and not rely on break-even as an exact prediction.",
+        "examTip": "Limitations of break-even analysis is a common exam question. Mention fixed cost changes, inventory assumption, and multi-product complexity. Then explain why it is still useful."
+      }
+    ]
+  },
+    {
+    "id": 6,
+    "title": "6. Budgets and Variances",
+    "content": [
+      {
+        "type": "heading",
+        "level": 2,
+        "text": "What is a Budget?"
+      },
+      {
+        "type": "text",
+        "text": "Textbook Definition: A budget is a financial plan for the future expressed in numerical terms. It translates business objectives into measurable targets."
+      },
+      {
+        "type": "text",
+        "text": "Easy Way: A budget is like a recipe for your money. It tells you how much to spend on each ingredient (marketing, wages, supplies) and how much you expect to make from the cake (sales revenue). If you follow the recipe, you know what profit to expect."
+      },
+      {
+        "type": "heading",
+        "level": 3,
+        "text": "Types of Budgets"
+      },
+      {
+        "type": "text",
+        "text": "Textbook Definition: Different budgeting approaches include incremental (based on previous period), zero-based (starting from nothing), and flexible (adjusting with activity levels)."
+      },
+      {
+        "type": "table",
+        "headers": ["Type", "Definition", "How It Works", "Example", "Best For"],
+        "rows": [
+          ["Incremental budgeting", "Start with last year's budget, add a percentage", "Last year's marketing budget was $100,000. Add 5% inflation = $105,000 this year.", "Stable businesses with predictable costs", "Easy, fast, stable environments"],
+          ["Zero budgeting", "Start from ZERO every period, justify EVERY expense", "\"Why do we need $100,000 for marketing? Justify each $1,000.\"", "Turnarounds, government, non-profits", "Cost control, eliminating waste"],
+          ["Flexible budgeting", "Budget that changes with activity levels", "If sales are 10% higher than planned, the marketing budget automatically increases 10%", "Manufacturing, retail, seasonal businesses", "Variable costs, performance measurement"]
+        ]
+      },
+      {
+        "type": "text",
+        "text": "Unilever Story (2018): The consumer goods giant switched to zero-based budgeting for its $8 billion marketing spend. Every campaign had to be justified from scratch - no automatic renewal of contracts. They saved $2 billion in the first year. Previously, they just added 3% to last year's budget automatically (incremental budgeting)."
+      },
+      {
+        "type": "heading",
+        "level": 3,
+        "text": "Benefits of Using Budgets"
+      },
+      {
+        "type": "table",
+        "headers": ["Benefit", "Explanation", "Real Impact"],
+        "rows": [
+          ["Planning", "Forces you to think ahead", "Prevents 'firefighting' - reacting to problems instead of preventing them"],
+          ["Control", "Compare actual vs. planned", "See problems early: 'We are spending 20% more than budget on materials'"],
+          ["Coordination", "Different departments align", "Marketing knows how much product operations needs to make"],
+          ["Communication", "Everyone knows the target", "Sales team knows they need $1 million this month"],
+          ["Motivation", "Challenge to achieve", "\"Let us beat the budget and get a bonus\""],
+          ["Evaluation", "Measure manager performance", "\"You spent 15% over budget - explain why\""]
+        ]
+      },
+      {
+        "type": "heading",
+        "level": 3,
+        "text": "Potential Drawbacks of Budgets"
+      },
+      {
+        "type": "table",
+        "headers": ["Drawback", "What Happens", "Real Example", "How to Fix"],
+        "rows": [
+          ["Budget slack", "Managers UNDERestimate sales so they look good later", "\"I predict sales of $1 million\" (knowing you can do $1.5 million). Then you easily beat the budget and get a bonus.", "Use multiple years of data, benchmark against industry"],
+          ["Spend it or lose it", "People waste money so next year's budget does not shrink", "In December, a manager spends $50,000 on unnecessary supplies because they have $50,000 left in the budget.", "Allow managers to keep unspent budget for future periods"],
+          ["Short-term focus", "Cut things that hurt long-term success", "Cancel training to hit this month's budget. Next year, employees are less skilled.", "Separate operating budgets from strategic investment budgets"],
+          ["Rigidity", "Cannot adapt when opportunities appear", "A great advertising opportunity appears for $20,000. But no budget left. Missed opportunity.", "Build in a contingency fund (5-10% of budget)"]
+        ]
+      },
+      {
+        "type": "text",
+        "text": "The Truth: Budgets are like a GPS. They tell you where you planned to go. But if you see a faster route or an accident ahead, you should change course - not blindly follow the GPS. Good managers use budgets as guides, not prisons."
+      },
+      {
+        "type": "heading",
+        "level": 3,
+        "text": "Variance Analysis - The Detective Work"
+      },
+      {
+        "type": "text",
+        "text": "Textbook Definition: A variance is the difference between actual results and budgeted figures. Variance analysis investigates these differences to improve future performance."
+      },
+      {
+        "type": "text",
+        "text": "The Formula: Variance = Actual - Budget"
+      },
+      {
+        "type": "table",
+        "headers": ["Variance Sign", "Name", "What It Means for Profit", "Example"],
+        "rows": [
+          ["Positive (+)", "Favourable (F)", "INCREASES profit compared to budget", "Actual sales $120k vs Budget $100k = +$20k F"],
+          ["Negative (-)", "Adverse (A)", "DECREASES profit compared to budget", "Actual material cost $15k vs Budget $10k = -$5k A"]
+        ]
+      },
+      {
+        "type": "text",
+        "text": "Important: 'Favourable' does not always mean 'good' in real life - just good for profit. Selling below budget is adverse (bad for profit) but might be necessary to gain market share. A favourable material variance might mean you bought cheaper, lower quality materials that will cause customer complaints later."
+      },
+      {
+        "type": "heading",
+        "level": 3,
+        "text": "Variance Analysis - Complete Example"
+      },
+      {
+        "type": "text",
+        "text": "A manufacturing company budgeted for a month. Here is what happened:"
+      },
+      {
+        "type": "table",
+        "headers": ["Item", "Budget", "Actual", "Variance", "F/A", "Explanation"],
+        "rows": [
+          ["Sales revenue", "$100,000", "$120,000", "$20,000", "F", "Sold more units than planned"],
+          ["Material cost", "$10,000", "$15,000", "($5,000)", "A", "Supplier raised prices unexpectedly"],
+          ["Labor cost", "$20,000", "$18,000", "$2,000", "F", "Workers were more efficient than planned"],
+          ["Rent", "$5,000", "$5,000", "$0", "-", "Exactly on budget"],
+          ["Marketing", "$3,000", "$4,000", "($1,000)", "A", "Ran an extra advertising campaign"],
+          ["Total costs", "$38,000", "$42,000", "($4,000)", "A", ""],
+          ["Profit", "$62,000", "$78,000", "$16,000", "F", ""]
+        ]
+      },
+      {
+        "type": "text",
+        "text": "How to Interpret This Table:"
+      },
+      {
+        "type": "table",
+        "headers": ["Variance", "What Happened", "Is This a Problem?", "Action Needed"],
+        "rows": [
+          ["Sales +$20,000 F", "Sold more than expected", "GOOD", "Try to repeat - what caused it? Better marketing? Lower prices? Competitor issues?"],
+          ["Materials -$5,000 A", "Spent more on materials", "MAYBE - investigate", "Find new supplier? Negotiate better rates? Reduce waste in production?"],
+          ["Labor +$2,000 F", "Spent less on wages", "GOOD", "Train others to work like this efficient team"],
+          ["Marketing -$1,000 A", "Spent more on ads", "MAYBE - did it cause higher sales?", "If yes, increase marketing budget. If no, cut back."]
+        ]
+      },
+      {
+        "type": "text",
+        "text": "The Most Important Insight: Variances do not exist in isolation. The extra $1,000 on marketing might have caused the $20,000 extra sales. If so, that $1,000 adverse variance is actually great - it generated $20,000 of extra revenue. You cannot judge variances without understanding relationships."
+      },
+      {
+        "type": "heading",
+        "level": 3,
+        "text": "How to Answer Variance Analysis Questions"
+      },
+      {
+        "type": "text",
+        "text": "Step 1: Calculate each variance (Actual - Budget)"
+      },
+      {
+        "type": "text",
+        "text": "Step 2: Label each as F (favourable = good for profit) or A (adverse = bad for profit)"
+      },
+      {
+        "type": "text",
+        "text": "Step 3: For each significant variance, suggest a possible cause"
+      },
+      {
+        "type": "text",
+        "text": "Step 4: For each significant variance, suggest an action"
+      },
+      {
+        "type": "text",
+        "text": "Step 5: Look for relationships between variances (e.g., higher marketing spend caused higher sales)"
+      },
+      {
+        "type": "text",
+        "text": "Model Answer Structure: 'The sales revenue variance is $20,000 favourable. This means actual sales exceeded budget by 20%. Possible causes include: higher than expected customer demand, successful promotion, or competitor problems. The material cost variance is $5,000 adverse. This means material costs were 50% above budget. The most likely cause is a supplier price increase or waste in production. The marketing variance is $1,000 adverse. However, this may have contributed to the favourable sales variance. Management should evaluate the return on marketing spend before cutting the budget next month.'"
+      }
+    ],
+    "questions": [
+      {
+        "id": 26,
+        "text": "A department budgeted $50,000 for sales and $30,000 for expenses. Actual sales were $45,000, actual expenses $28,000. Calculate the profit variance. Is it favourable or adverse? Explain what happened.",
+        "modelAnswer": "Budgeted profit = $50,000 - $30,000 = $20,000. Actual profit = $45,000 - $28,000 = $17,000. Profit variance = $17,000 - $20,000 = ($3,000) ADVERSE. The business made $3,000 LESS profit than budgeted. This happened because: Sales were $5,000 below budget (adverse) - possibly due to lower demand or increased competition. Expenses were $2,000 below budget (favourable) - possibly due to cost cutting or lower than expected utility bills. The adverse sales variance was only partially offset by the favourable expense variance, resulting in a net adverse profit variance of $3,000.",
+        "examTip": "Profit variance is ALWAYS Actual Profit - Budgeted Profit. If negative, it is adverse. If positive, it is favourable."
+      },
+      {
+        "id": 27,
+        "text": "A manager spent $8,000 of their $10,000 budget in November, even though they only needed $6,000 of supplies. Why might they do this? What budgeting problem is this? How could the company prevent this behavior?",
+        "modelAnswer": "This is the 'spend it or lose it' problem common in incremental budgeting. The manager spent $2,000 extra because: (1) If they return $4,000 unspent ($10,000 - $6,000 = $4,000), next year's budget will likely be cut to $6,000. (2) By spending $8,000 (wasting $2,000), they signal they need $8,000 next year. (3) This behavior is rational for the manager but terrible for the company - they wasted $2,000 of company money. How to prevent: Switch to zero-based budgeting (must justify every expense from zero each year). Or allow managers to keep unspent budget for future periods (e.g., carry over 50% of savings to next year). Or create a bonus system that rewards saving money, not spending it.",
+        "examTip": "This is a classic exam question. Name the problem ('spend it or lose it' or 'budget slack'), explain WHY it happens, and suggest a solution (zero-based budgeting or carry-forward provisions)."
+      },
+      {
+        "id": 28,
+        "text": "A company budgeted sales of $200,000 at $20 per unit (10,000 units). Actual sales were $180,000 at $18 per unit (10,000 units). Calculate the sales price variance and sales volume variance. Which is more concerning?",
+        "modelAnswer": "Sales volume variance = (Actual units - Budgeted units) × Budgeted price = (10,000 - 10,000) × $20 = $0. Volume was exactly as planned. Sales price variance = (Actual price - Budgeted price) × Actual units = ($18 - $20) × 10,000 = ($2) × 10,000 = ($20,000) ADVERSE. The company sold the same number of units but at a lower price. This is more concerning than a volume variance because: (1) It suggests a pricing problem - maybe competitors lowered prices or customers perceive lower value. (2) It directly reduces profit by $20,000. (3) It may be harder to fix than volume - raising prices back to $20 might lose customers. Management should investigate why prices dropped: Was it intentional discounting? Did a competitor start a price war?",
+        "examTip": "Separate price and volume variances. Price variance = (Actual price - Budgeted price) × Actual units. Volume variance = (Actual units - Budgeted units) × Budgeted price."
+      },
+      {
+        "id": 29,
+        "text": "A factory budgeted to produce 5,000 units at $10 material cost per unit ($50,000 total). Actual production was 6,000 units at $9 material cost per unit ($54,000 total). Calculate the total material variance and explain what might have happened.",
+        "modelAnswer": "Total material variance = Actual cost - Budgeted cost = $54,000 - $50,000 = $4,000 ADVERSE. However, this is not the full story because they produced 1,000 more units. Flexible budget adjustment: Budgeted cost for actual production = 6,000 units × $10 = $60,000. Flexible budget variance = Actual cost ($54,000) - Flexible budget ($60,000) = ($6,000) FAVOURABLE. They actually did BETTER than expected when adjusting for volume. What might have happened: (1) They negotiated a lower price per unit from suppliers ($9 instead of $10) - this is good. (2) They produced more units (6,000 instead of 5,000) - this is good if they sold them. (3) The total variance looks adverse only because they produced more. On a per-unit basis, they improved from $10 to $9 - a 10% cost reduction.",
+        "examTip": "Always use flexible budgeting when actual volume differs from budgeted volume. Comparing actual to original budget is misleading when volume changes."
+      },
+      {
+        "id": 30,
+        "text": "Explain the difference between incremental budgeting and zero-based budgeting. Give a real company example of zero-based budgeting success.",
+        "modelAnswer": "Incremental budgeting starts with last year's budget and adds a percentage (usually for inflation). It is easy and fast but can perpetuate inefficiencies - if last year's budget had waste, this year's budget will also have waste. Zero-based budgeting starts from zero every period. Every expense must be justified from scratch, regardless of what was spent last year. It is time-consuming but eliminates waste. Real example: Unilever (2018) switched to zero-based budgeting for its $8 billion marketing spend. Previously, they just added 3% to last year's budget automatically. Under zero-based budgeting, every campaign had to justify its existence. They saved $2 billion in the first year - money that was previously being wasted on ineffective campaigns. The trade-off: zero-based budgeting takes much more time and effort. Managers must spend weeks justifying every expense rather than just rolling forward last year's numbers. For a small business, incremental budgeting might be fine. For a large company with waste, zero-based budgeting can save millions.",
+        "examTip": "Incremental = easy but perpetuates waste. Zero-based = hard but eliminates waste. Know both and when to use each."
+      }
+    ]
+  },
+    {
+    "id": 7,
+    "title": "7. Ultimate Exam Cheat Sheet",
+    "content": [
+      {
+        "type": "heading",
+        "level": 2,
+        "text": "Examiner Verbs Decoded"
+      },
+      {
+        "type": "table",
+        "headers": ["Verb", "What They Mean", "Marks", "Your Job", "Example Starter"],
+        "rows": [
+          ["Define/State", "Show memorized knowledge", "1-2", "Write exact textbook definition", "\"X is defined as...\""],
+          ["Describe", "Show what it looks like", "2-3", "Definition + one example", "\"X is... For example...\""],
+          ["Explain", "Show WHY and HOW", "3-4", "Because X → then Y → which causes Z", "\"This is because... which leads to... resulting in...\""],
+          ["Analyse", "Break into pieces", "4-6", "Two chains (pro + con or two impacts)", "\"One impact is... This causes... Another impact is... This leads to...\""],
+          ["Calculate", "Do the math", "2-4", "Formula → numbers → answer with units", "Show every step. Always include units."],
+          ["Evaluate/Discuss", "Give judgment", "6-12", "AJIM method", "See below"]
+        ]
+      },
+      {
+        "type": "heading",
+        "level": 2,
+        "text": "The AJIM Method for Evaluation (8-12 marks)"
+      },
+      {
+        "type": "table",
+        "headers": ["Letter", "Step", "What You Write", "Example"],
+        "rows": [
+          ["A", "Answer the question directly", "\"Yes, I agree that...\" or \"No, I disagree because...\"", "\"No, financial rewards are NOT the most effective way to motivate ALL employees.\""],
+          ["J", "Justify with chain of reasoning", "\"This is because...\" + 3-4 step chain", "\"For employees with basic needs, money is effective. However, once needs are met, money becomes a 'hygiene factor' - its absence causes dissatisfaction but its presence does not motivate.\""],
+          ["I", "\"It depends on...\"", "\"However, the outcome depends on [key factor]...\"", "\"The effectiveness depends on the employee's individual needs, job type, and personal circumstances.\""],
+          ["M", "Most important factor + conclusion", "\"Ultimately, the deciding factor is... Therefore, I conclude that...\"", "\"Ultimately, individual differences are most important. A motivated workforce requires BOTH financial and non-financial motivators. Therefore, no single method works for everyone.\""]
+        ]
+      },
+      {
+        "type": "heading",
+        "level": 2,
+        "text": "The Chain Method for Explain (3-4 marks)"
+      },
+      {
+        "type": "text",
+        "text": "Formula: Because [reason 1] → this leads to [effect 2] → which results in [outcome 3]"
+      },
+      {
+        "type": "text",
+        "text": "Example: Explain why a business might use trade credit. \"Because trade credit allows a business to receive supplies without immediate cash payment (reason) → this means the business can use its existing cash for other urgent expenses (effect) → which reduces the risk of running out of working capital (outcome).\""
+      },
+      {
+        "type": "heading",
+        "level": 2,
+        "text": "The Two-Sided Method for Analyse (4-6 marks)"
+      },
+      {
+        "type": "text",
+        "text": "Formula: Point 1 + chain of reasoning + Point 2 + chain of reasoning"
+      },
+      {
+        "type": "text",
+        "text": "Example: Analyse two limitations of capital-intensive operations. \"Limitation 1: High initial costs. Because machines cost millions → this requires large loans or investment → interest payments reduce profit → higher break-even point makes the business riskier. Limitation 2: Less flexibility. Because machines are designed for specific tasks → this means the business cannot easily switch products if demand changes → risk of unsold inventory and wasted capacity.\""
+      },
+      {
+        "type": "heading",
+        "level": 2,
+        "text": "All Formulas You Must Know"
+      },
+      {
+        "type": "table",
+        "headers": ["Formula", "How to Calculate", "Memory Trick", "Units"],
+        "rows": [
+          ["Working capital", "Current Assets - Current Liabilities", "CA - CL = WC", "$"],
+          ["Contribution per unit", "Selling Price - Variable Cost", "SP - VC = C", "$ per unit"],
+          ["Total contribution", "Contribution × Number of units", "C × Q", "$"],
+          ["Break-even (units)", "Fixed Costs ÷ Contribution per unit", "FC ÷ C = BE", "Units"],
+          ["Break-even (revenue)", "Fixed Costs ÷ (Contribution ÷ Selling Price)", "FC ÷ C/S ratio", "$"],
+          ["Margin of safety (units)", "Current output - Break-even output", "Actual - BE = MoS", "Units"],
+          ["Margin of safety (%)", "(Actual - BE) ÷ Actual × 100", "MoS% = (A-BE)÷A×100", "%"],
+          ["Profit (shortcut)", "Margin of safety × Contribution per unit", "MoS × C = Profit", "$"],
+          ["Target profit output", "(Fixed Costs + Target Profit) ÷ Contribution", "(FC + Target) ÷ C", "Units"],
+          ["Variance", "Actual - Budget", "A - B = V", "$"],
+          ["Net cash flow", "Total Inflows - Total Outflows", "In - Out = Net", "$"],
+          ["Closing balance", "Opening balance + Net cash flow", "Open + Net = Close", "$"]
+        ]
+      },
+      {
+        "type": "heading",
+        "level": 2,
+        "text": "Keyword Dictionary"
+      },
+      {
+        "type": "table",
+        "headers": ["Keyword", "Definition", "In 5 Words"],
+        "rows": [
+          ["Administration", "Legal process where an outsider tries to save a struggling business", "Last chance rescue"],
+          ["Adverse variance", "Variance that DECREASES profit (actual worse than budget)", "Bad for profit"],
+          ["Bankruptcy", "Legal declaration that a person or business cannot repay debts", "Legally broke"],
+          ["Break-even point", "Output where total revenue equals total costs", "Zero profit point"],
+          ["Budget", "Financial plan for the future in numerical terms", "Future money plan"],
+          ["Capital expenditure", "Money on assets lasting more than one year", "Buy long-term stuff"],
+          ["Cash", "Actual money in bank or on hand at a moment", "Real money now"],
+          ["Contribution", "Selling price minus variable cost", "Money toward fixed costs"],
+          ["Contribution costing", "Only variable costs assigned to products; fixed costs separate", "Only variable costs count"],
+          ["Debt factoring", "Selling unpaid customer invoices for immediate cash", "Sell your IOUs"],
+          ["Direct costs", "Costs traced directly to a specific product", "Traceable to product"],
+          ["Favourable variance", "Variance that INCREASES profit (actual better than budget)", "Good for profit"],
+          ["Fixed costs", "Costs that do NOT change with output level", "Same no matter what"],
+          ["Flexible budgeting", "Budget that changes with activity levels", "Moves with volume"],
+          ["Full costing", "Allocating ALL costs (fixed AND variable) to each product", "Every cost assigned"],
+          ["Hire purchase", "Buying an asset by installments; ownership after final payment", "Rent-to-own"],
+          ["Incremental budgeting", "Start with last year's budget, add a percentage", "Last year + percentage"],
+          ["Indirect costs", "Costs that cannot be traced to a specific product", "Shared business costs"],
+          ["Leasing", "Renting an asset for a fixed period instead of buying", "Long-term rental"],
+          ["Liquidation", "Selling all business assets to pay debts, closing permanently", "Sell everything, close"],
+          ["Margin of safety", "Current output minus break-even output", "Cushion before loss"],
+          ["Overdraft", "Bank facility allowing withdrawal beyond account balance", "Negative balance permission"],
+          ["Profit", "Revenue minus all costs; surplus after expenses", "What is left over"],
+          ["Retained earnings", "Profits kept in business instead of distributed", "Saved-up profit"],
+          ["Revenue expenditure", "Money spent on day-to-day running costs", "Daily spending"],
+          ["Trade credit", "Buying now and paying later (30-90 days)", "Buy now, pay later"],
+          ["Variable costs", "Costs that change DIRECTLY with output level", "Changes with production"],
+          ["Variance", "Difference between actual results and budgeted figures", "Actual minus budget"],
+          ["Working capital", "Current assets minus current liabilities", "Cash for daily needs"],
+          ["Zero budgeting", "Starting from zero every period; justify every expense", "Start from nothing"]
+        ]
+      },
+      {
+        "type": "heading",
+        "level": 2,
+        "text": "Memory Triggers (Mnemonics)"
+      },
+      {
+        "type": "table",
+        "headers": ["Concept", "Mnemonic", "Meaning"],
+        "rows": [
+          ["Fixed vs Variable costs", "FIXed stays FIXed; VARiable VARies", "Fixed = constant; Variable = changes"],
+          ["Contribution formula", "SPiders Vanish Climbing", "SP - VC = C"],
+          ["Break-even formula", "Freddy Cooks Chicken", "FC ÷ C = BE"],
+          ["Working capital", "Cats Are Lovely - Cats Like Mice", "CA - CL = WC"],
+          ["Favourable vs Adverse", "Friends Add; Adversaries Subtract", "F = +profit; A = -profit"],
+          ["Capital vs Revenue", "Cars Last; Revenue Daily", "Capital = long-term; Revenue = daily"],
+          ["Margin of safety", "My Safety Cushion", "MoS = Actual - BE"]
+        ]
+      },
+      {
+        "type": "heading",
+        "level": 2,
+        "text": "Exam Question Patterns (What They ALWAYS Ask)"
+      },
+      {
+        "type": "heading",
+        "level": 3,
+        "text": "Pattern 1: Special Order Decision (Contribution Costing)"
+      },
+      {
+        "type": "text",
+        "text": "Step 1: Calculate contribution (SP - VC). Step 2: If contribution POSITIVE → ACCEPT (helps cover fixed costs). Step 3: If contribution NEGATIVE → REJECT (makes loss worse). Step 4: Consider: Will regular customers want lower price? Does it damage brand? At full capacity, compare to normal contribution."
+      },
+      {
+        "type": "heading",
+        "level": 3,
+        "text": "Pattern 2: Cash Flow Crisis"
+      },
+      {
+        "type": "text",
+        "text": "Step 1: Identify cause: Slow payers? Overtrading? Seasonal dip? Overstocking? Step 2: Explain cash vs. profit gap. Step 3: Suggest 2-3 solutions: factoring, discounts, overdraft, sell assets, delay payments, reduce stock."
+      },
+      {
+        "type": "heading",
+        "level": 3,
+        "text": "Pattern 3: Finance Source Selection"
+      },
+      {
+        "type": "text",
+        "text": "Step 1: State purpose and duration needed. Step 2: Match duration: Short-term (<1 year) vs Long-term (1+ years). Step 3: Consider ownership: Can they sell shares? (Only Ltd/PLC). Step 4: Consider cost, control, and existing debt."
+      },
+      {
+        "type": "heading",
+        "level": 3,
+        "text": "Pattern 4: Break-Even Analysis"
+      },
+      {
+        "type": "text",
+        "text": "Step 1: Calculate contribution (SP - VC). Step 2: Calculate break-even (FC ÷ Contribution). Step 3: Calculate margin of safety (Actual - BE). Step 4: Comment on risk: 'Margin of safety of X% means sales can fall by X before losses'"
+      },
+      {
+        "type": "heading",
+        "level": 3,
+        "text": "Pattern 5: Variance Analysis"
+      },
+      {
+        "type": "text",
+        "text": "Step 1: Calculate each variance (Actual - Budget). Step 2: Label as F (favourable) or A (adverse). Step 3: Explain what each variance means for profit. Step 4: Suggest possible causes. Step 5: Look for relationships between variances."
+      },
+      {
+        "type": "heading",
+        "level": 2,
+        "text": "Real Company Examples for Exam Answers"
+      },
+      {
+        "type": "table",
+        "headers": ["Concept", "Company Example", "What Happened", "Use When Answering..."],
+        "rows": [
+          ["Cash vs Profit", "WeWork (2021)", "Showed profit but could not pay rent - almost collapsed", "Cash flow crisis questions"],
+          ["Overtrading", "BHS (2016)", "Expanded too fast, could not stock stores, collapsed", "Causes of cash flow problems"],
+          ["Retained earnings", "Berkshire Hathaway", "Never paid dividend, reinvested everything", "Internal finance questions"],
+          ["Venture capital", "Airbnb (2009)", "$600k investment became $4 billion", "External finance questions"],
+          ["Special order", "Airlines", "Sell last-minute seats below cost because plane flying anyway", "Contribution costing questions"],
+          ["Cash flow forecast", "Netflix (2011)", "Forecast predicted shortage, raised debt BEFORE crisis", "Benefits of forecasting"],
+          ["Zero budgeting", "Unilever (2018)", "Saved $2 billion by justifying every marketing dollar", "Budgeting methods"],
+          ["Working capital", "J.C. Penney (2020)", "Negative WC led to bankruptcy", "Working capital importance"]
+        ]
+      },
+      {
+        "type": "heading",
+        "level": 2,
+        "text": "Connective Phrases for Top Marks"
+      },
+      {
+        "type": "table",
+        "headers": ["Instead of 'so...'", "Write This", "For Evaluation"],
+        "rows": [
+          ["Basic", "\"This leads to...\"", "\"In conclusion...\""],
+          ["Better", "\"Consequently...\"", "\"However, this depends on...\""],
+          ["Advanced", "\"As a result of this, which means that...\"", "\"On balance, while [counter-argument] has merit, the deciding factor is...\""],
+          ["Top marks", "\"This creates a chain reaction where X causes Y, which then results in Z...\"", "\"Ultimately, the extent to which this is true depends on [key variable]. Therefore, I conclude that...\""]
+        ]
+      },
+      {
+        "type": "heading",
+        "level": 2,
+        "text": "Pro Tips for Exam Day"
+      },
+      {
+        "type": "text",
+        "text": "1. Show your working - Even if the final answer is wrong, you get marks for correct steps"
+      },
+      {
+        "type": "text",
+        "text": "2. Units matter - Write '$' or 'units' or '%' every single time"
+      },
+      {
+        "type": "text",
+        "text": "3. Define before you explain - Examiners give separate marks for definitions (AO1) and reasoning (AO3)"
+      },
+      {
+        "type": "text",
+        "text": "4. Never leave a calculation blank - Write the formula even if you cannot solve it"
+      },
+      {
+        "type": "text",
+        "text": "5. For evaluation, pick a side - Sitting on the fence = low marks. Even if unsure, choose and justify."
+      },
+      {
+        "type": "text",
+        "text": "6. Use the case study data - Numbers from the text = free AO2 marks"
+      },
+      {
+        "type": "text",
+        "text": "7. Time management - Marks per minute: total marks ÷ total minutes. A 12-mark question deserves 15-18 minutes."
+      },
+      {
+        "type": "text",
+        "text": "8. The magic number for analysis - Always try for 3-4 steps in your chain of reasoning"
+      },
+      {
+        "type": "text",
+        "text": "9. For 'evaluate' questions - Always use AJIM. Always. It guarantees structure and coverage."
+      },
+      {
+        "type": "text",
+        "text": "10. Read the question twice - Underline the command word (explain/analyse/evaluate) and the topic. Do not answer the wrong question."
+      },
+      {
+        "type": "heading",
+        "level": 2,
+        "text": "The 60-Second Question Decoder"
+      },
+      {
+        "type": "table",
+        "headers": ["If You See...", "Your First Thought Is..."],
+        "rows": [
+          ["Define", "\"What is the exact textbook words?\""],
+          ["Describe", "\"Definition + one real example\""],
+          ["Explain", "\"Chain of reasoning: X → Y → Z\""],
+          ["Analyse", "\"Two separate chains. One good, one bad.\""],
+          ["Calculate", "\"Which formula? Show every step.\""],
+          ["Evaluate", "\"AJIM: Answer, Justify, It depends, Most important\""],
+          ["Discuss", "\"Same as evaluate - pick a side\""]
+        ]
+      }
+    ],
+    "questions": [
+      {
+        "id": 31,
+        "text": "Using the AJIM method, evaluate whether profit should be the most important business objective. Include both sides of the argument and a justified conclusion.",
+        "modelAnswer": "A: No, profit is NOT ALWAYS the most important business objective. J: Profit ensures survival and growth - without profit, a business cannot invest, pay shareholders, or survive downturns. However, other objectives like market share, customer satisfaction, employee welfare, and environmental sustainability can be equally important. For example, Amazon prioritized market share over profit for years, and that strategy made them the most valuable company in the world. I: It depends on the business context - a startup in crisis needs profit to survive, but an established market leader might prioritize growth or social responsibility. A charity or social enterprise exists for a purpose other than profit entirely. M: Ultimately, profit is necessary for long-term survival, but it should not always be the single most important objective. The most important factor is the business's stage and stakeholder expectations. A balanced scorecard approach - considering financial, customer, internal process, and learning objectives - is superior to focusing only on profit. Therefore, profit is critically important but not universally the most important objective.",
+        "examTip": "AJIM = Answer, Justify, It depends, Most important. This guarantees 8+ marks on evaluation questions."
+      },
+      {
+        "id": 32,
+        "text": "A business has break-even of 1,000 units and sells 1,200 units. Contribution per unit is $5. Calculate profit and explain what happens if sales drop by 15%.",
+        "modelAnswer": "Current profit = Margin of safety × Contribution = (1,200 - 1,000) × $5 = 200 × $5 = $1,000. A 15% drop in sales means new sales = 1,200 × 0.85 = 1,020 units. New margin of safety = 1,020 - 1,000 = 20 units. New profit = 20 × $5 = $100. Profit would drop by 90% from $1,000 to $100. The business would be very close to making a loss. This shows how a small drop in sales can cause a much larger drop in profit when the margin of safety is small. A 15% sales drop caused a 90% profit drop. This is called 'operating leverage' - the magnification effect of fixed costs.",
+        "examTip": "Calculate 'before' first, then apply the change. Show both calculations. The profit drop percentage is often larger than the sales drop percentage."
+      }
+    ]
+  }
+]
