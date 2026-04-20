@@ -1,15 +1,18 @@
 import { NextRequest, NextResponse } from 'next/server';
 import { Groq } from 'groq-sdk';
 
-// Your API key - set once here
-const GROQ_API_KEY = process.env.GROQ_API_KEY;
-
 export async function POST(request: NextRequest) {
   try {
     const { paragraph, question } = await request.json();
     
     if (!paragraph || !question) {
       return NextResponse.json({ error: 'Missing information' }, { status: 400 });
+    }
+    
+    const GROQ_API_KEY = process.env.GROQ_API_KEY;
+    
+    if (!GROQ_API_KEY) {
+      return NextResponse.json({ error: 'API key not configured' }, { status: 500 });
     }
     
     const groq = new Groq({ apiKey: GROQ_API_KEY });
