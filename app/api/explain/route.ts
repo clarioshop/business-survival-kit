@@ -1,5 +1,58 @@
 import { NextRequest, NextResponse } from 'next/server';
 import { Groq } from 'groq-sdk';
+import { GoogleGenerativeAI } from '@google/generative-ai';
+
+// Provider configuration
+const providers = [
+  {
+    name: 'groq',
+    apiKey: process.env.GROQ_API_KEY,
+    call: async (prompt: string) => {
+      const groq = new Groq({ apiKey: process.env.GROQ_API_KEY });
+      const response = await groq.chat.completions.create({
+        model: 'llama-3.1-8b-instant',
+        messages: [{ role: 'user', content: prompt }],
+        max_tokens: 500,
+        temperature: 0.7,
+      });
+      return response.choices[0]?.message?.content;
+    }
+  },
+  {
+    name: 'gemini',
+    apiKey: process.env.GEMINI_API_KEY,
+    call: async (prompt: string) => {
+      const genAI = new GoogleGenerativeAI(process.env.GEMINI_API_KEY!);
+      const model = genAI.getGenerativeModel({ model: 'gemini-2.0-flash-exp' });
+      const result = await model.generateContent(prompt);
+      return result.response.text();
+    }
+  },
+  {
+    name: 'deepseek',
+    apiKey: process.env.DEEPSEEK_API_KEY,
+    call: async (prompt: string) => {
+      const response = await fetch('https://api.deepseek.com/v1/chat/completions', {
+        method: 'POST',
+        headers: {
+          'Authorization': `Bearer ${process.env.DEEPSEEK_API_KEY}`,
+          'Content-Type': 'application/json',
+        },
+        body: JSON.stringify({
+          model: 'deepseek-chat',
+          messages: [{ role: 'user', content: prompt }],
+          max_tokens: 500,
+          temperature: 0.7,
+        }),
+      });
+      const data = await response.json();
+      return data.choices[0]?.message?.content;
+    }
+  }
+];
+
+// Round-robin counter
+let currentIndex = 0;
 
 export async function POST(request: NextRequest) {
   try {
@@ -9,29 +62,39 @@ export async function POST(request: NextRequest) {
       return NextResponse.json({ error: 'Missing information' }, { status: 400 });
     }
     
-    const GROQ_API_KEY = process.env.GROQ_API_KEY;
+    const prompt = `The student selected this text: "${paragraph.slice(0, 500)}". Their question: "${question}". Explain it simply using analogies. Keep it under 150 words. Be helpful and friendly.`;
     
-    if (!GROQ_API_KEY) {
-      return NextResponse.json({ error: 'API key not configured' }, { status: 500 });
+    // Try each provider in order
+    for (let attempt = 0; attempt < providers.length; attempt++) {
+      const provider = providers[currentIndex];
+      currentIndex = (currentIndex + 1) % providers.length;
+      
+      try {
+        if (!provider.apiKey) {
+          console.log(`${provider.name}: No API key, skipping`);
+          continue;
+        }
+        
+        console.log(`🔄 Trying ${provider.name}...`);
+        const explanation = await provider.call(prompt);
+        
+        if (explanation) {
+          console.log(`✅ ${provider.name} responded successfully`);
+          return NextResponse.json({ explanation });
+        }
+      } catch (error: any) {
+        console.log(`❌ ${provider.name} failed:`, error?.message || error);
+        // Continue to next provider
+      }
     }
     
-    const groq = new Groq({ apiKey: GROQ_API_KEY });
-    
-    const response = await groq.chat.completions.create({
-      model: 'llama-3.1-8b-instant',
-      messages: [
-        { role: 'system', content: 'You are a friendly AS Business tutor. Explain concepts simply using analogies. Keep responses under 150 words.' },
-        { role: 'user', content: `The student selected this text: "${paragraph}". Their question: "${question}". Explain it simply.` }
-      ],
-      temperature: 0.7,
-      max_tokens: 500,
+    // All providers failed
+    return NextResponse.json({ 
+      explanation: "All AI services are currently busy. Please try again in a moment." 
     });
     
-    const explanation = response.choices[0]?.message?.content || "I couldn't explain that. Please try again.";
-    
-    return NextResponse.json({ explanation });
   } catch (error) {
     console.error('API error:', error);
-    return NextResponse.json({ error: 'Failed to get explanation' }, { status: 500 });
+    return NextResponse.json({ error: 'Failed to process request' }, { status: 500 });
   }
 }
