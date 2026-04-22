@@ -2,10 +2,14 @@ import { NextRequest, NextResponse } from 'next/server';
 import { Groq } from 'groq-sdk';
 import { GoogleGenerativeAI } from '@google/generative-ai';
 
-// Provider configuration
+// Helper: Get Groq API key
+const getGroqApiKey = () => process.env.GROQ_API_KEY;
+
+// All providers with their specific models
 const providers = [
+  // ========== GROQ MODELS (Different rate limits) ==========
   {
-    name: 'groq',
+    name: 'groq-llama-8b',
     apiKey: process.env.GROQ_API_KEY,
     call: async (prompt: string) => {
       const groq = new Groq({ apiKey: process.env.GROQ_API_KEY });
@@ -18,6 +22,35 @@ const providers = [
       return response.choices[0]?.message?.content;
     }
   },
+  {
+    name: 'groq-llama-70b',
+    apiKey: process.env.GROQ_API_KEY,
+    call: async (prompt: string) => {
+      const groq = new Groq({ apiKey: process.env.GROQ_API_KEY });
+      const response = await groq.chat.completions.create({
+        model: 'llama-3.3-70b-versatile',
+        messages: [{ role: 'user', content: prompt }],
+        max_tokens: 500,
+        temperature: 0.7,
+      });
+      return response.choices[0]?.message?.content;
+    }
+  },
+  {
+    name: 'groq-llama-scout',
+    apiKey: process.env.GROQ_API_KEY,
+    call: async (prompt: string) => {
+      const groq = new Groq({ apiKey: process.env.GROQ_API_KEY });
+      const response = await groq.chat.completions.create({
+        model: 'llama-4-scout-17b-16e-instruct',
+        messages: [{ role: 'user', content: prompt }],
+        max_tokens: 500,
+        temperature: 0.7,
+      });
+      return response.choices[0]?.message?.content;
+    }
+  },
+  // ========== BACKUP PROVIDERS ==========
   {
     name: 'gemini',
     apiKey: process.env.GEMINI_API_KEY,
@@ -51,8 +84,8 @@ const providers = [
   }
 ];
 
-// Round-robin counter
-let currentIndex = 0;
+// Round-robin counter (starts at a random position to distribute load)
+let currentIndex = Math.floor(Math.random() * providers.length);
 
 export async function POST(request: NextRequest) {
   try {
