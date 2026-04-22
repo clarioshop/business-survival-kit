@@ -1,9 +1,8 @@
-// app/api/explain/route.ts
 import { NextRequest, NextResponse } from 'next/server';
 import { Groq } from 'groq-sdk';
 
 // ============================================
-// ACCOUNT 1 & 2 API KEYS
+// ACCOUNT 1 & 2 API KEYS (Set in Vercel Environment Variables)
 // ============================================
 
 const ACCOUNTS = [
@@ -12,16 +11,15 @@ const ACCOUNTS = [
 ].filter(acc => acc.apiKey);
 
 // ============================================
-// MODELS IN PRIORITY ORDER (Best to Worst)
+// MODELS IN PRIORITY ORDER
 // ============================================
 
 const MODELS = [
-    { name: 'llama-3.1-8b-instant', rpm: 30, rpd: 14400, priority: 1 },     // Highest daily limit
-    { name: 'qwen/qwen3-32b', rpm: 60, rpd: 1000, priority: 2 },             // Highest RPM (60!)
-    { name: 'allam-2-7b', rpm: 30, rpd: 7000, priority: 3 },                 // Good daily limit
-    { name: 'llama-3.3-70b-versatile', rpm: 30, rpd: 1000, priority: 4 },    // Fallback
-    { name: 'llama-4-scout-17b', rpm: 30, rpd: 1000, priority: 5 },          // Large token capacity
-    { name: 'openai/gpt-oss-20b', rpm: 30, rpd: 1000, priority: 6 }          // Last resort
+    { name: 'llama-3.1-8b-instant', rpm: 30, rpd: 14400, priority: 1 },
+    { name: 'qwen/qwen3-32b', rpm: 60, rpd: 1000, priority: 2 },
+    { name: 'allam-2-7b', rpm: 30, rpd: 7000, priority: 3 },
+    { name: 'llama-3.3-70b-versatile', rpm: 30, rpd: 1000, priority: 4 },
+    { name: 'llama-4-scout-17b-16e-instruct', rpm: 30, rpd: 1000, priority: 5 }
 ];
 
 // ============================================
@@ -32,17 +30,31 @@ let currentAccountIndex = 0;
 let currentModelIndex = 0;
 
 // ============================================
-// GET NEXT ACCOUNT (Rotates between accounts)
+// HELPER: Promise with timeout
+// ============================================
+
+function withTimeout<T>(promise: Promise<T>, timeoutMs: number = 8000): Promise<T> {
+    return Promise.race([
+        promise,
+        new Promise<T>((_, reject) =>
+            setTimeout(() => reject(new Error(`Timeout after ${timeoutMs}ms`)), timeoutMs)
+        )
+    ]);
+}
+
+// ============================================
+// GET NEXT ACCOUNT
 // ============================================
 
 function getNextAccount() {
+    if (ACCOUNTS.length === 0) return null;
     const account = ACCOUNTS[currentAccountIndex % ACCOUNTS.length];
     currentAccountIndex++;
     return account;
 }
 
 // ============================================
-// GET NEXT MODEL (Rotates through priority list)
+// GET NEXT MODEL
 // ============================================
 
 function getNextModel() {
@@ -56,6 +68,8 @@ function getNextModel() {
 // ============================================
 
 export async function POST(request: NextRequest) {
+    const startTime = Date.now();
+    
     try {
         const { paragraph, question } = await request.json();
         
@@ -65,6 +79,14 @@ export async function POST(request: NextRequest) {
         
         const prompt = `The student selected this text: "${paragraph.slice(0, 500)}". Their question: "${question}". Explain it simply using analogies. Keep it under 150 words. Be helpful and friendly.`;
         
+        // If no API keys configured
+        if (ACCOUNTS.length === 0) {
+            console.error('No Groq API keys configured');
+            return NextResponse.json({ 
+                explanation: "AI service is not configured. Please contact support." 
+            });
+        }
+        
         // Try all combinations: Accounts × Models
         const maxAttempts = ACCOUNTS.length * MODELS.length;
         
@@ -72,8 +94,8 @@ export async function POST(request: NextRequest) {
             const account = getNextAccount();
             const model = getNextModel();
             
-            if (!account.apiKey) {
-                console.log(`⚠️ ${account.name}: No API key, skipping`);
+            if (!account || !account.apiKey) {
+                console.log(`⚠️ No valid API key for attempt ${attempt + 1}`);
                 continue;
             }
             
@@ -82,48 +104,58 @@ export async function POST(request: NextRequest) {
                 
                 const groq = new Groq({ apiKey: account.apiKey });
                 
-                const response = await groq.chat.completions.create({
-                    model: model.name,
-                    messages: [
-                        { role: 'system', content: 'You are a friendly AS Business tutor. Explain concepts simply using analogies. Keep responses under 150 words.' },
-                        { role: 'user', content: prompt }
-                    ],
-                    max_tokens: 500,
-                    temperature: 0.7,
-                });
+                // Make API call with 8 second timeout
+                const response = await withTimeout(
+                    groq.chat.completions.create({
+                        model: model.name,
+                        messages: [
+                            { 
+                                role: 'system', 
+                                content: 'You are a friendly AS Business tutor. Explain concepts simply using analogies. Keep responses under 150 words. Be warm and helpful.' 
+                            },
+                            { role: 'user', content: prompt }
+                        ],
+                        max_tokens: 500,
+                        temperature: 0.7,
+                    }),
+                    8000
+                );
                 
                 const explanation = response.choices[0]?.message?.content;
                 
                 if (explanation) {
-                    console.log(`✅ SUCCESS: ${account.name} / ${model.name}`);
-                    
-                    // Optional: Return debug info (remove in production)
-                    // return NextResponse.json({ 
-                    //     explanation, 
-                    //     _debug: { account: account.name, model: model.name } 
-                    // });
-                    
+                    const elapsed = Date.now() - startTime;
+                    console.log(`✅ SUCCESS: ${account.name} / ${model.name} (${elapsed}ms)`);
                     return NextResponse.json({ explanation });
                 }
                 
             } catch (error: any) {
-                console.error(`❌ FAILED: ${account.name} / ${model.name} - ${error?.message || error}`);
+                const elapsed = Date.now() - startTime;
+                const errorMessage = error?.message || String(error);
                 
-                // Check if it's a rate limit error
-                if (error?.message?.includes('429') || error?.message?.includes('rate limit')) {
-                    console.log(`   ⏰ Rate limit hit for ${account.name}/${model.name}`);
+                if (errorMessage.includes('429') || errorMessage.includes('rate limit')) {
+                    console.log(`⏰ RATE LIMIT: ${account.name} / ${model.name} - ${elapsed}ms`);
+                } else if (errorMessage.includes('Timeout')) {
+                    console.log(`⏱️ TIMEOUT: ${account.name} / ${model.name} - ${elapsed}ms`);
+                } else {
+                    console.log(`❌ FAILED: ${account.name} / ${model.name} - ${errorMessage.slice(0, 100)}`);
                 }
                 // Continue to next combination
             }
         }
         
         // All combinations failed
+        const elapsed = Date.now() - startTime;
+        console.log(`💀 All providers failed after ${elapsed}ms`);
+        
         return NextResponse.json({ 
             explanation: "All AI services are currently busy. Please try again in a moment." 
         });
         
-    } catch (error) {
-        console.error('API error:', error);
-        return NextResponse.json({ error: 'Failed to process request' }, { status: 500 });
+    } catch (error: any) {
+        console.error('API error:', error?.message || error);
+        return NextResponse.json({ 
+            error: 'Failed to process request' 
+        }, { status: 500 });
     }
 }
